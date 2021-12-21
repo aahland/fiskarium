@@ -1,0 +1,19 @@
+
+#fishlogowhite {
+    height: 79.46px;
+}
+
+#brandnameFooter {
+    font-family: roboto;
+    font-size: 24px;
+    margin-left:0px;
+    margin-top:0px;
+    font-weight: bold;
+    color:white;
+}
+#logotypeFooter {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}

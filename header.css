@@ -1,0 +1,72 @@
+#fishlogoblue {
+    height: 40px;
+    width: 54px;
+    margin-bottom: 2px;
+    margin-left:10px;
+}
+#brandnameHeader {
+    font-family: roboto;
+    font-size: 12px;
+    margin-left:8px;
+    margin-top:0px;
+    font-weight: bold;
+    
+}
+#logotypeHeader {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top:13px;
+}
+
+
+#searchField {
+    position: absolute;
+    border-radius: 100px;
+    width: 186.88px;
+    height: 21.89px;
+    left: 111px;
+    top: 33.83px;
+    
+}
+
+#searchButton {
+    position: absolute;
+    left: 245px;
+    top: 36px;
+    border:none;
+    border-radius: 100px;
+    width: 58.5px;
+    height: 24px;
+    background: #F5592C;
+    font-family: roboto;
+    color: white;
+    font-weight:bold;
+    font-size: 12px;
+
+}
+
+#searchText {
+    position: absolute;
+    width: 50px;
+    height: 9px;
+    left: 126px;
+    top: 11px;
+    margin-bottom: 0px;
+
+    font-family: Voltaire;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+#shoppingcart {
+    position: absolute;
+    left: 86.67%;
+    right: 4.8%;
+    top: 33px;
+    height: 26.8px;
+
+
+}
