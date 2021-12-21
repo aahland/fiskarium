@@ -1,7 +1,42 @@
-body{
-    background-image: url("backgroundv1.jpg") ;
+body {
+    background-image: url("backgroundv1.jpg");
     background-repeat: no-repeat;
     background-color: #05303F;
-    
 }
 
+article {
+    text-align: center;
+}
+
+/* mobile first */
+main {
+    max-width: 313px;
+}
+
+h1 {
+    font-family: coustard;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 89,88px;
+}
+
+h2 {
+    font-family: coustard;
+    font-weight: 900;
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 35px;
+}
+
+.price{
+    color: #FDBF57;
+}
+
+p{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px;
+}
