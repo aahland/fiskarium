@@ -1,8 +1,10 @@
 body {
-    background-image: url("img/backgroundv1.jpg");
+    background-image: url("img/background-mobile.jpg");
     background-repeat: no-repeat;
+    background-position:top;
     background-color: #05303F;
     width: 375px;
+    
 }
 
 article {
