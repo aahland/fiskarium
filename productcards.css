@@ -99,6 +99,14 @@
     float: right;
 }
 
+.imgSeaweedSmall {
+    max-width: 38px;
+    max-height: 78px;
+    transform: matrix(0.79, 0.61, -0.61, 0.79, 0, 0);
+    margin-left: 267px;
+    margin-top: -110px;
+}
+
 /* Remove later, just the footer is not in the way of the productcard */
 footer {
     margin-top: 400px;
