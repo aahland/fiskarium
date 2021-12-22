@@ -1,6 +1,22 @@
+footer{
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 870px;
+    margin-left:0;
+    position: absolute;
+    right: 5px;
+   
+}
 
 #fishlogowhite {
-    height: 79.46px;
+    height: 72.5px;
+    width: 108px;
+    margin-top:73px;
+    position: relative;
+    left:5px;
 }
 
 #brandnameFooter {
@@ -11,9 +27,64 @@
     font-weight: bold;
     color:white;
 }
-#logotypeFooter {
+
+
+#contact {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    width: 150px;
+    height: 221px;
+    font-size: 24px;
+    line-height: 28px;
     
 }
+
+#address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    width: 150px;
+    height: 186px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#socialmediaFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#socialmediaLogos {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#followUs {
+    text-align: center;
+
+}
+
+#instagramlogo {
+    height: 77px;
+    width: 77px;
+    margin-right:15px;
+}
+#facebooklogo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(100%) contrast(104%);
+    height: 77px;
+    width: 77px;
+    margin-left:15px;
+}
+
+
+
+
+
