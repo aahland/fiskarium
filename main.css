@@ -23,8 +23,9 @@ h1 {
 }
 
 .bubble {
-    -webkit-animation: mover 25s infinite  alternate;
-    animation: mover 25s infinite alternate;
+    -webkit-animation: mover 25s infinite;
+    animation: mover 25s infinite;
+    animation-delay: 1s;
 }
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
