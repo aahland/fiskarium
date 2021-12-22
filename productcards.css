@@ -14,20 +14,20 @@
     padding-left: 32px;
 }
 
-.pricegroup {
+.productgroup {
     display: flex;
     max-width: 286px;
     margin: 0px auto;
     padding-left: 22px;
 }
 
-.pricegroup p {
+.productgroup p {
     color: white;
     margin-top: 0px;
     float: left;
 }
 
-.pricing {
+.pricegroup {
     max-width: 159px;
     max-height: 98px;
     padding-right: 7px;
