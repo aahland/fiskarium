@@ -6,7 +6,7 @@ footer{
     width: 375px;
     height: 870px;
     margin-left:0;
-    position: absolute;
+    position: relative;
     right: 5px;
    
 }
@@ -85,7 +85,38 @@ footer{
     margin-left:15px;
 }
 
+@media screen and (min-width: 834px) {
+    footer {
+      width: 834px;
+      height: 625px;
+    }
+    #logoAdressContactSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:685px;
+        margin-top: 50px;
+        
+       
+    }
+    #contact {
+        text-align: left;
+        width: 215px;
+        margin-right: 75px;
+    }
+    #address {
+        margin-top:18px;
+        text-align: left;
+    }
+    #followUs{
+        text-align: left;
+    }
+    #fishlogowhite{
+        margin-top: 35px;
+        
+    }
 
+}
 
 
 

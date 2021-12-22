@@ -1,6 +1,9 @@
+
+
 header {
     width: 375px;
     margin:0px;
+    
 }
 
 #fishlogoblue {
@@ -8,9 +11,11 @@ header {
     width: 54px;
     margin-bottom: 2px;
     margin-left:10px;
+    margin-right:27px;
 }
 #brandnameHeader {
     font-family: roboto;
+    position: abolute;
     font-size: 12px;
     margin-left: 7px;
     margin-top:0px;
@@ -18,10 +23,9 @@ header {
     
 }
 #logotypeHeader {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
     margin-top:13px;
+    max-width: 375px;
+    
 }
 
 
@@ -30,14 +34,14 @@ header {
     border-radius: 100px;
     width: 186px;
     height: 21.89px;
-    left: 111px;
+    left: 100px;
     top: 25px;
     
 }
 
 #searchButton {
     position: absolute;
-    left: 244px;
+    left: 233px;
     top: 27px;
     border:none;
     border-radius: 100px;
@@ -56,9 +60,10 @@ header {
     color: black;
     width: 50px;
     height: 9px;
-    left: 126px;
+    left: 70px;
     top: 2px;
     margin-bottom: 0px;
+    margin-left: 50px;
 
     font-family: voltaire;
     font-style: normal;
@@ -69,10 +74,65 @@ header {
 
 #shoppingcart {
     position: absolute;
-    left: 90.5%;
-    right: 4.8%;
+    right:18px;
     top: 27px;
-    height: 26.8px;
+    height: 27px;
+    width:32px;
+    margin-left:27px;
 
 
+}
+@media screen and (min-width: 834px) {
+
+    #fishlogoblue {
+        height:70px;
+        width:108px;
+        margin-right:52px;
+        margin-left:0px;
+        margin-bottom:3px;
+        top: 26px;
+        left:57px;
+        position:absolute;
+    }
+    #brandnameHeader {
+        font-size:24px;
+        position:absolute;
+        left:53px;
+        margin:0px;
+        top: 95px;
+    }
+
+    #shoppingcart {
+        right:80px;
+        height:44px;
+        width:47px;
+        margin-left:29px;
+        top:60px;
+    }
+    #searchField {
+        width:389px;
+        height:44px;
+        left:239px;
+        top:60px;
+    }
+    #searchButton {
+        width:120.5px;
+        height: 46px;
+        left: 513px;
+        top:62px;
+        font-size: 24px;
+        
+
+    }
+    #searchText {
+        font-size: 18px;
+        width: 92px;
+        left:210px;
+        top:25px;
+
+    }
+    
+
+
+  
 }
