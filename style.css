@@ -2,6 +2,7 @@ body {
     background-image: url("img/backgroundv1.jpg");
     background-repeat: no-repeat;
     background-color: #05303F;
+    width: 375px;
 }
 
 article {
