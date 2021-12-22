@@ -1,0 +1,20 @@
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 88px 94px 127px;
+    grid-gap: 14px;
+    padding: 0;
+}
+nav ul li {
+    background-color: #07415A;
+    color: #fff;
+    text-align: center;
+    font-family: 'Voltaire';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    border-radius: 5px;
+    height: 31px;
+    padding: 5px 0;
+}
