@@ -1,0 +1,62 @@
+/* product card 1 */
+.productCardOne {
+    background: #07415A;
+    border: #0F1010 solid 2px;
+    box-shadow: #070707 5px 5px 0px 0px;
+    border-radius: 39px;
+    width: 334px;
+    Height: 648px;
+}
+
+.heading{
+    width: 334px;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.pricegroup {
+    display: flex;
+    max-width: 286px;
+    margin: 0px auto;
+    padding-left: 22px;
+}
+
+.pricegroup p {
+    color: white;
+    margin-top: 0px;
+    float: left;
+}
+
+.pricing {
+    max-width: 159px;
+    max-height: 98px;
+    padding-right: 7px;
+}
+
+.price {
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.imgYellowFish {
+    max-width: 127px;
+    max-height: 97px;
+    float: right;
+}
+
+.text {
+    max-width: 247px;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    text-align: left;
+    padding-right: 23px;
+}
+
+
+/* product card 2 */
+
+.productCardTwo {
+    color: red;
+}

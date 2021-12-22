@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="productcards.css">
 
     <title>Fiskarium</title>
 </head>
@@ -26,7 +27,7 @@
             <button id="searchButton">SÖK</button>
         </span>
         <span>
-            <img id="shoppingcart"src="img/icon-Cart.svg" alt="shoppingcart">
+            <img id="shoppingcart" src="img/icon-Cart.svg" alt="shoppingcart">
         </span>
     </header>
 
@@ -46,18 +47,22 @@
         <img src="img/bubbla.svg" alt="bubble">
         <img src="img/johnny_automatic_generic_fish.svg" alt="blue fish illustration">
 
-        <article>
-            <h2>En gul fisk</h2>
-            <p>Nu för endast</p>
-            <h2 class="price">99.90</h2>
-            <img src="img/johnny_automatic_fish_2.svg" alt="yellow fish">
-            <p>Erbjudandet gäller till 31/12. Perfekt som julklapp. Den har snygg färg men dåligt minne.</p>
+        <article class="productCardOne">
+            <h2 class="heading">En gul fisk</h2>
+            <span class="pricegroup">
+                <span class="pricing">
+                <p >Nu för endast</p>
+                <h2 class="price">99.90</h2>
+            </span>
+                <img class="imgYellowFish" src="img/johnny_automatic_fish_2.svg" alt="yellow fish">
+            </span>
+            <p class="text">Erbjudandet gäller till 31/12. Perfekt som julklapp. Den har snygg färg men dåligt minne.</p>
             <button class="primary">Köp nu</button>
             <button class="secondary">Till fiskar</button>
 
         </article>
 
-        <article>
+        <article class="productCardTwo">
             <h2>Kelp</h2>
             <h2 class="price">49.90</h2>
             <p> En mycket dekorativ växt. Den blir femtio meter hög så den passar bäst i stora akvarium.</p>
@@ -70,7 +75,7 @@
 
     <footer>
         <span>
-            <img id="fishlogowhite"src="img/kitchen-fish.white.svg" alt="fish logo">
+            <img id="fishlogowhite" src="img/kitchen-fish.white.svg" alt="fish logo">
             <h3 id="brandnameFooter">FISKARIUM</h3>
         </span>
         <span>
