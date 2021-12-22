@@ -8,7 +8,7 @@
     Height: 648px;
 }
 
-.heading{
+.heading {
     width: 334px;
     text-align: left;
     padding-left: 32px;
@@ -37,6 +37,7 @@
     float: left;
     margin-bottom: 0px;
     margin-top: 0px;
+    line-height: 0px;
 }
 
 .imgYellowFish {
@@ -45,7 +46,7 @@
     float: right;
 }
 
-.text {
+.textCardOne {
     max-width: 247px;
     margin: 0px auto;
     padding-top: 50px;
@@ -54,9 +55,51 @@
     padding-right: 23px;
 }
 
-
 /* product card 2 */
-
 .productCardTwo {
-    color: red;
+    margin-top: 101px;
+    width: 334px;
+    Height: 648px;
+}
+
+.productCardTwo .heading {
+    padding-left: 37px;
+}
+
+.textCardTwo {
+    max-width: 301px;
+    margin: 0px auto;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 37px;
+    padding-bottom: 58px;
+}
+
+.productCardTwo .price {
+    width: 301px;
+    text-align: left;
+    padding-left: 37px;
+    line-height: 0px;
+}
+
+.seaweedGroup {
+    max-width: 334px;
+}
+
+.btnGroup {
+    max-width: 174px;
+    float: left;
+    margin-left: 27px;
+    margin-right: 23px;
+}
+
+.imgSeaweed {
+    max-width: 98px;
+    max-height: 203px;
+    float: right;
+}
+
+/* Remove later, just the footer is not in the way of the productcard */
+footer {
+    margin-top: 400px;
 }
