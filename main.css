@@ -1,0 +1,46 @@
+h1 {
+    margin-left: 30px;
+}
+
+.mainText {
+    margin-left: 30px;
+    max-width: 315px;
+    margin-bottom: 34px;
+}
+
+.genericFish {
+    width: 274px;
+    height: 152px;
+    transform: matrix(-0.99, -0.16, -0.16, 0.99, 0, 0);
+    margin-left: 45px;
+}
+
+.bubble {
+    margin-left: 40px;
+    margin-bottom: -36px;
+    -webkit-animation: mover 25s infinite;
+    animation: mover 25s infinite;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
