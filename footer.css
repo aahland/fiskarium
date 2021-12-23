@@ -120,17 +120,22 @@ footer h3 {
         text-align: left;
     }
 
+    .socialmedia {
+        top:300px;
+    }
+
    .socialmedia p{
         text-align: left;
     }
 
     .whiteLogotype{
-        margin-top: 35px; 
+        margin-top: 70px; 
+        left: 0px;
     }
 
     footer h3 {
-        top: 165px;
-        left: 74px;
+        top: 200px;
+        left: 70px;
     }
 
 }
