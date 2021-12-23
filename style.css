@@ -13,7 +13,7 @@ article {
 
 /* mobile first */
 main {
-    max-width: 313px;
+    max-width: 375px;
 }
 
 h1 {
@@ -21,7 +21,8 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-    line-height: 90px;
+    line-height: 50px;
+    margin-top: 77px;
 }
 
 h2 {
