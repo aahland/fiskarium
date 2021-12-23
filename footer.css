@@ -11,25 +11,33 @@ footer{
    
 }
 
-#fishlogowhite {
+.whiteLogotype {
     height: 72.5px;
     width: 108px;
     margin-top:73px;
     position: relative;
-    left:5px;
+    left:15px;
 }
 
-#brandnameFooter {
+footer h3 {
     font-family: roboto;
     font-size: 24px;
     margin-left:0px;
     margin-top:0px;
     font-weight: bold;
     color:white;
+    position: absolute;
+    left:125px;
+}
+
+.footertext {
+    position: relative;
+    top: 40px;
+
 }
 
 
-#contact {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +50,7 @@ footer{
     
 }
 
-#address {
+.address {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,20 +62,22 @@ footer{
     line-height: 28px;
 }
 
-#socialmediaFooter {
+.socialmedia {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    top:600px;
     
 }
 
-#socialmediaLogos {
+.socialmedia span {
     display: flex;
     flex-direction: row;
     
 }
 
-#followUs {
+.socialmedia p {
     text-align: center;
 
 }
@@ -86,34 +96,42 @@ footer{
 }
 
 @media screen and (min-width: 834px) {
+
     footer {
       width: 834px;
       height: 625px;
     }
-    #logoAdressContactSection{
+    
+    footer section {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width:685px;
-        margin-top: 50px;
-        
-       
+        margin-top: 50px;  
     }
-    #contact {
+
+    .contact {
         text-align: left;
         width: 215px;
         margin-right: 75px;
     }
-    #address {
+
+    .address {
         margin-top:18px;
         text-align: left;
     }
-    #followUs{
+
+   .socialmedia p{
         text-align: left;
     }
-    #fishlogowhite{
-        margin-top: 35px;
-        
+
+    .whiteLogotype{
+        margin-top: 35px; 
+    }
+
+    footer h3 {
+        top: 165px;
+        left: 74px;
     }
 
 }

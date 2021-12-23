@@ -6,14 +6,16 @@ header {
     
 }
 
-#fishlogoblue {
+.blueLogotype {
     height: 40px;
     width: 54px;
     margin-bottom: 2px;
     margin-left:10px;
     margin-right:27px;
+
 }
-#brandnameHeader {
+
+h3 {
     font-family: roboto;
     position: abolute;
     font-size: 12px;
@@ -22,14 +24,14 @@ header {
     font-weight: bold;
     
 }
-#logotypeHeader {
+.headerLogo {
     margin-top:13px;
     max-width: 375px;
     
 }
 
 
-#searchField {
+header input {
     position: absolute;
     border-radius: 100px;
     width: 186px;
@@ -39,7 +41,7 @@ header {
     
 }
 
-#searchButton {
+header button {
     position: absolute;
     left: 233px;
     top: 27px;
@@ -55,7 +57,7 @@ header {
 
 }
 
-#searchText {
+header p {
     position: absolute;
     color: black;
     width: 50px;
@@ -72,7 +74,7 @@ header {
     line-height: 11px;
 }
 
-#shoppingcart {
+.shoppingcart {
     position: absolute;
     right:18px;
     top: 27px;
@@ -84,7 +86,7 @@ header {
 }
 @media screen and (min-width: 834px) {
 
-    #fishlogoblue {
+    .blueLogotype {
         height:70px;
         width:108px;
         margin-right:52px;
@@ -94,7 +96,7 @@ header {
         left:57px;
         position:absolute;
     }
-    #brandnameHeader {
+    h3 {
         font-size:24px;
         position:absolute;
         left:53px;
@@ -102,20 +104,20 @@ header {
         top: 95px;
     }
 
-    #shoppingcart {
+    .shoppingcart {
         right:80px;
         height:44px;
         width:47px;
         margin-left:29px;
         top:60px;
     }
-    #searchField {
+    header input {
         width:389px;
         height:44px;
         left:239px;
         top:60px;
     }
-    #searchButton {
+    header button {
         width:120.5px;
         height: 46px;
         left: 513px;
@@ -124,7 +126,7 @@ header {
         
 
     }
-    #searchText {
+    header p {
         font-size: 18px;
         width: 92px;
         left:210px;
