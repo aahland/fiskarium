@@ -17,7 +17,7 @@ main {
 
 h1 {
     font-family: coustard;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
     line-height: 90px;
@@ -42,3 +42,12 @@ p{
     color: #FFFFFF;
     line-height: 35px;
 }
+
+/* 
+styling fonts
+font-family: 'Abel', sans-serif;
+font-family: 'Coustard', serif;
+font-family: 'Gruppo', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Voltaire', sans-serif;
+*/ 
