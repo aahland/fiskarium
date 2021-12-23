@@ -1,9 +1,10 @@
 body {
     background-image: url("img/background-mobile.jpg");
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:left top;
     background-color: #05303F;
     width: 375px;
+
 }
 
 article {
