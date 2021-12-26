@@ -1,7 +1,7 @@
 
 
 .primary {
-    width: 269px;
+    width: 268px;
     height: 60px;
     background-color: #F35636;
     border: #F35636 1px solid;
@@ -25,7 +25,7 @@
 
 .secondary {
     color: #F35636;
-    width: 269px;
+    width: 268px;
     height: 60px;
     background: none;
     border: #F35636 5px solid;
@@ -53,3 +53,19 @@
 }
 
 
+@media screen and (min-width: 834px) {
+
+    .primary {
+        width: 199px;
+        height: 60px;
+        margin:0px;
+        margin-right: 55px;
+    
+    }
+
+    .secondary {
+        width: 195px;
+        height: 60px;
+        margin:0px;
+    }
+}

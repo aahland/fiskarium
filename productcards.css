@@ -14,14 +14,14 @@
 .heading {
     width: 334px;
     text-align: left;
-    padding-left: 32px;
+    margin-left: 32px;
 }
 
 .productgroup {
     display: flex;
     max-width: 286px;
     margin: 0px auto;
-    padding-left: 22px;
+    margin-left: 22px;
 }
 
 .productgroup p {
@@ -108,4 +108,59 @@
     transform: matrix(0.79, 0.61, -0.61, 0.79, 0, 0);
     margin-left: 267px;
     margin-top: -110px;
+}
+
+
+/* Ipad */
+@media screen and (min-width: 834px) {
+
+    .productCardOne {
+        width: 725px;
+        height: 516px;
+    }
+
+    .heading {
+        max-width: 474px;
+        margin-left: 126px;
+        margin-top: 54px;
+    }
+
+    .productgroup {
+        max-width: 725px;
+        margin-left: 126px;
+    }
+
+    .productgroup p {
+        margin-top: 15px;
+    }
+
+    .pricegroup {
+        padding-right: 141px;
+        margin-top: -15px;
+    }
+
+    .imgYellowFish {
+        max-width: 213px;
+        max-height: 181px;
+        margin-top: -70px;
+    }
+
+    .textCardOne {
+        max-width: 474px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 126px;
+    }
+
+    .btnGroupOne {
+        max-width: 725px;
+        margin-left: 114px;
+        margin-right: 156px;
+        float: left;
+    }
+
+
+
+
+
 }
