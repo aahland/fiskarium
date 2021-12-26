@@ -144,7 +144,7 @@ footer h3 {
 
 @media screen and (min-width: 1440px) {
     footer {
-        width: 1440px;
+        width: 100vw;
         height: 625px;
         margin-top: -255px;
       }
