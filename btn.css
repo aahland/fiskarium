@@ -1,5 +1,3 @@
-
-
 .primary {
     width: 268px;
     height: 60px;
@@ -14,13 +12,13 @@
     margin: 10px;
 }
 
-.primary:hover{
-    border:#FFFFFF 5px solid;
- }
+.primary:hover {
+    border: #FFFFFF 5px solid;
+}
 
-.primary:active{
-    background: #F35636 ;
-    border:#F4C23F 5px solid;
+.primary:active {
+    background: #F35636;
+    border: #F4C23F 5px solid;
 }
 
 .secondary {
@@ -34,66 +32,62 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 28,13px;
+    line-height: 28, 13px;
     margin: 10px;
 }
 
-.secondary:hover{
-    background: #FFFFFF ;
-    border:#F5592C 5px solid;
+.secondary:hover {
+    background: #FFFFFF;
+    border: #F5592C 5px solid;
 }
 
-.secondary:active{
-    background: none ;
-    border:#FFFFFF 5px solid;
+.secondary:active {
+    background: none;
+    border: #FFFFFF 5px solid;
 }
 
 .smallbtn {
     width: 174px;
 }
 
-
 @media screen and (min-width: 834px) {
 
     .primary {
         width: 199px;
         height: 60px;
-        margin:0px;
+        margin: 0px;
         margin-right: 55px;
-    
     }
 
     .secondary {
         width: 195px;
         height: 60px;
-        margin:0px;
+        margin: 0px;
     }
 
     .smallbtn {
         width: 222px;
     }
 
-    .CardTwoPrimary{
+    .CardTwoPrimary {
         margin-bottom: 30px;
     }
 }
 
-
 @media screen and (min-width: 1440px) {
     .primary {
         margin-right: 26px;
-    
     }
 
-    .CardTwoPrimary{
+    .CardTwoPrimary {
         width: 221px;
     }
 
-    .CardTwoPrimary{
+    .CardTwoPrimary {
         width: 219px;
     }
 
-    .CardTwoSecondary{
+    .CardTwoSecondary {
         width: 211px;
     }
 }

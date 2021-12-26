@@ -1,10 +1,9 @@
 body {
     background-image: url("img/background-mobile.jpg");
     background-repeat: no-repeat;
-    background-position:left top;
+    background-position: left top;
     background-color: #05303F;
     width: 375px;
-
 }
 
 article {
@@ -32,11 +31,11 @@ h2 {
     line-height: 35px;
 }
 
-.price{
+.price {
     color: #FDBF57;
 }
 
-p{
+p {
     font-family: roboto;
     font-weight: 400;
     font-size: 24px;
@@ -52,6 +51,13 @@ p{
     }
 }
 
+/* desktop*/
+@media screen and (min-width: 1440px) {
+    main {
+        max-width: 1440px;
+    }
+}
+
 /* 
 styling fonts
 font-family: 'Abel', sans-serif;
@@ -59,4 +65,4 @@ font-family: 'Coustard', serif;
 font-family: 'Gruppo', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Voltaire', sans-serif;
-*/ 
+*/

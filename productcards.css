@@ -10,7 +10,6 @@
     margin-top: 57px;
 }
 
-
 .heading {
     width: 334px;
     text-align: left;
@@ -110,7 +109,6 @@
     margin-top: -110px;
 }
 
-
 /* Ipad */
 @media screen and (min-width: 834px) {
 
@@ -159,7 +157,7 @@
     }
 
     .btnGroupOne {
-        width: 725px;
+        width: 455px;
         margin-left: 114px;
         margin-right: 156px;
         float: left;

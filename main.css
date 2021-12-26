@@ -14,7 +14,6 @@ h1 {
     margin-left: 29px;
 }
 
-
 .mainText {
     margin-left: 30px;
     width: 315px;
@@ -79,7 +78,6 @@ h1 {
         margin-bottom: 15px;
     }
 
-
     .mainText {
         margin-left: 165px;
         margin-right: 145px;
@@ -100,7 +98,6 @@ h1 {
         margin-bottom: -60px;
     }
 }
-
 
 /* Desktop*/
 @media screen and (min-width: 1440px) {
