@@ -1,12 +1,19 @@
+.firstPage {
+    width: 375px;
+    text-align: left;
+    margin-top: 147px;
+}
+
 h1 {
-    max-width: 313px;
-    margin-left: 30px;
+    width: 313px;
+    float: left;
+    margin-left: 29px;
 }
 
 
 .mainText {
     margin-left: 30px;
-    max-width: 315px;
+    width: 315px;
     margin-bottom: 34px;
 }
 
@@ -44,5 +51,44 @@ h1 {
     100% {
         transform: translateY(-100vh);
         opacity: 0;
+    }
+}
+
+
+@media screen and (min-width: 834px) {
+
+    .firstPage {
+        width: 834px;
+        margin-top: 147px;
+    }
+
+    h1 {
+        width: 550px;
+        font-size: 64px;
+        line-height: 90px;
+        margin-left: 163px;
+        margin-right: 124px;
+        margin-bottom: 15px;
+    }
+
+
+    .mainText {
+        margin-left: 165px;
+        margin-right: 145px;
+        width: 524px;
+        margin-bottom: 94px;
+    }
+
+    .genericFish {
+        width: 484px;
+        height: 270px;
+        transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
+        margin-left: 177px;
+        margin-right: 139px;
+    }
+
+    .bubble {
+        margin-left: 180px;
+        margin-bottom: -60px;
     }
 }
