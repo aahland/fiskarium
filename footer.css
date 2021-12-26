@@ -6,6 +6,7 @@ footer{
     width: 375px;
     height: 870px;
     margin-left:0;
+    margin-top: -130px;
     position: relative;
     right: 5px;
    
@@ -99,6 +100,7 @@ footer h3 {
     footer {
       width: 834px;
       height: 625px;
+      margin-top: -140px;
     }
     
     footer section {
@@ -138,6 +140,14 @@ footer h3 {
         left: 70px;
     }
 
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        width: 100vw;
+        height: 625px;
+        margin-top: -255px;
+      }
 }
 
 

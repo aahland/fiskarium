@@ -1,7 +1,5 @@
-
-
 .primary {
-    width: 269px;
+    width: 268px;
     height: 60px;
     background-color: #F35636;
     border: #F35636 1px solid;
@@ -14,18 +12,18 @@
     margin: 10px;
 }
 
-.primary:hover{
-    border:#FFFFFF 5px solid;
- }
+.primary:hover {
+    border: #FFFFFF 5px solid;
+}
 
-.primary:active{
-    background: #F35636 ;
-    border:#F4C23F 5px solid;
+.primary:active {
+    background: #F35636;
+    border: #F4C23F 5px solid;
 }
 
 .secondary {
     color: #F35636;
-    width: 269px;
+    width: 268px;
     height: 60px;
     background: none;
     border: #F35636 5px solid;
@@ -34,22 +32,62 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 28,13px;
+    line-height: 28, 13px;
     margin: 10px;
 }
 
-.secondary:hover{
-    background: #FFFFFF ;
-    border:#F5592C 5px solid;
+.secondary:hover {
+    background: #FFFFFF;
+    border: #F5592C 5px solid;
 }
 
-.secondary:active{
-    background: none ;
-    border:#FFFFFF 5px solid;
+.secondary:active {
+    background: none;
+    border: #FFFFFF 5px solid;
 }
 
 .smallbtn {
     width: 174px;
 }
 
+@media screen and (min-width: 834px) {
 
+    .primary {
+        width: 199px;
+        height: 60px;
+        margin: 0px;
+        margin-right: 55px;
+    }
+
+    .secondary {
+        width: 195px;
+        height: 60px;
+        margin: 0px;
+    }
+
+    .smallbtn {
+        width: 222px;
+    }
+
+    .CardTwoPrimary {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .primary {
+        margin-right: 26px;
+    }
+
+    .CardTwoPrimary {
+        width: 221px;
+    }
+
+    .CardTwoPrimary {
+        width: 219px;
+    }
+
+    .CardTwoSecondary {
+        width: 211px;
+    }
+}

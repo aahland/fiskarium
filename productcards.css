@@ -10,18 +10,17 @@
     margin-top: 57px;
 }
 
-
 .heading {
     width: 334px;
     text-align: left;
-    padding-left: 32px;
+    margin-left: 32px;
 }
 
 .productgroup {
     display: flex;
-    max-width: 286px;
+    width: 286px;
     margin: 0px auto;
-    padding-left: 22px;
+    margin-left: 22px;
 }
 
 .productgroup p {
@@ -31,8 +30,8 @@
 }
 
 .pricegroup {
-    max-width: 159px;
-    max-height: 98px;
+    width: 159px;
+    height: 98px;
     padding-right: 7px;
 }
 
@@ -43,14 +42,18 @@
     line-height: 0px;
 }
 
+.imgYellowFishBig{
+    display:none;
+}
+
 .imgYellowFish {
-    max-width: 127px;
-    max-height: 97px;
+    width: 127px;
+    height: 97px;
     float: right;
 }
 
 .textCardOne {
-    max-width: 247px;
+    width: 247px;
     margin: 0px auto;
     margin-top: 50px;
     margin-bottom: 58px;
@@ -65,12 +68,8 @@
     Height: 648px;
 }
 
-.productCardTwo .heading {
-    padding-left: 37px;
-}
-
 .textCardTwo {
-    max-width: 301px;
+    width: 301px;
     margin: 0px auto;
     text-align: left;
     padding-top: 50px;
@@ -81,31 +80,240 @@
 .productCardTwo .price {
     width: 301px;
     text-align: left;
-    padding-left: 37px;
+    padding-left: 32px;
     line-height: 0px;
 }
 
 .seaweedGroup {
-    max-width: 334px;
+    width: 334px;
 }
 
 .btnGroup {
-    max-width: 174px;
+    width: 174px;
     float: left;
     margin-left: 27px;
     margin-right: 23px;
 }
 
 .imgSeaweed {
-    max-width: 98px;
-    max-height: 203px;
+    width: 98px;
+    height: 203px;
     float: right;
 }
 
 .imgSeaweedSmall {
-    max-width: 38px;
-    max-height: 78px;
+    width: 38px;
+    height: 78px;
     transform: matrix(0.79, 0.61, -0.61, 0.79, 0, 0);
     margin-left: 267px;
     margin-top: -110px;
+}
+
+/* Ipad */
+@media screen and (min-width: 834px) {
+
+    /* productcard 1*/
+    .productCardOne {
+        width: 725px;
+        height: 516px;
+        margin-top: 92px;
+    }
+
+    .heading {
+        width: 474px;
+        margin-left: 126px;
+        margin-top: 54px;
+    }
+
+    .productgroup {
+        width: 725px;
+        margin-left: 126px;
+    }
+
+    .productgroup p {
+        margin-top: 15px;
+    }
+
+    .pricegroup {
+        padding-right: 141px;
+        margin-top: -15px;
+    }
+
+    .imgYellowFishBig{
+        display:none;
+    }
+
+    .imgYellowFish {
+        width: 213px;
+        height: 181px;
+        margin-top: -70px;
+    }
+
+    .textCardOne {
+        width: 474px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 126px;
+    }
+
+    .btnGroupOne {
+        width: 455px;
+        margin-left: 114px;
+        margin-right: 156px;
+        float: left;
+    }
+
+    /* product card 2 */
+    .productCardTwo {
+        margin-top: 136px;
+        width: 472px;
+        margin-left: 199px;
+        margin-left: 163px;
+    }
+
+    .productCardTwo .heading {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .textCardTwo {
+        width: 472px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-bottom: 59px;
+    }
+
+    .productCardTwo .price {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .btnGroup {
+        width: 222px;
+        margin-left: 10px;
+    }
+
+    .imgSeaweed {
+        width: 151px;
+        height: 291px;
+        margin-top: -62px;
+        margin-right: 45px;
+    }
+
+    .imgSeaweedSmall {
+        width: 56px;
+        height: 114px;
+        transform: matrix(0.78, 0.57, -0.66, 0.8, 0, 0);
+        margin-left: 287px;
+    }
+
+}
+
+/* desktop*/
+
+@media screen and (min-width: 1440px) {
+
+    /* productcard 1*/
+    .productCardOne {
+        margin-top: 92px;
+        margin-left: 486px;
+        margin-bottom: 120px;
+    }
+
+    .productCardOne .heading {
+        width: 444px;
+        margin-left: 157px;
+        margin-top: 77px;
+        margin-bottom: 0px;
+    }
+
+    .productgroup {
+        width: 444px;
+        margin-left: 157px;
+    }
+
+    .productgroup p {
+        float: left;
+        line-height: 56px;
+        margin-right: 10px;
+    }
+
+    .productgroup .price {
+        float: right;
+        margin-bottom: 15px;
+        margin-top: 12px;
+        line-height: 56px;
+    }
+
+    .pricegroup {
+        width: 444px;
+        padding-right: 0px;
+        margin-top: 0px;
+        display: inline-flex;
+    }
+
+    .imgYellowFishBig{
+        display:inline-flex;
+        position: absolute;
+        width: 388px;
+        height: 297px;
+        margin-top: 200px;
+        margin-left: 220px;
+    }
+
+    .imgYellowFish {
+      display: none;
+    }
+
+    .textCardOne {
+        width: 444px;
+        margin-left: 157px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .btnGroupOne {
+        margin-left: 158px;
+        margin-right: 141px;
+        width: 426px;
+    }
+
+    /* product card 2 */
+    .productCardTwo {
+        margin-top: 120px;
+        width: 725px;
+        margin-left: 357px;
+        margin-right: 358px;
+    }
+
+    .productCardTwo .heading {
+        width: 474px;
+    }
+
+    .textCardTwo {
+        width: 474px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .btnGroup {
+        width: 468px;
+        margin-left: -3px;
+    }
+
+    .imgSeaweed {
+        width: 210px;
+        height: 394px;
+        margin-top: -260px;
+        margin-right: 0px;
+    }
+
+    .imgSeaweedSmall {
+        width: 78px;
+        height: 155px;
+        transform: matrix(0.78, 0.57, -0.66, 0.8, 0, 0);
+        margin-top: -130px;
+        margin-left: 580px;
+    }
 }

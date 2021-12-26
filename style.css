@@ -13,7 +13,7 @@ article {
 
 /* mobile first */
 main {
-    max-width: 375px;
+    width: 375px;
 }
 
 h1 {
@@ -22,7 +22,6 @@ h1 {
     font-size: 36px;
     color: #FFFFFF;
     line-height: 50px;
-    margin-top: 77px;
 }
 
 h2 {
@@ -33,16 +32,31 @@ h2 {
     line-height: 35px;
 }
 
-.price{
+.price {
     color: #FDBF57;
 }
 
-p{
+p {
     font-family: roboto;
     font-weight: 400;
     font-size: 24px;
     color: #FFFFFF;
     line-height: 35px;
+}
+
+/* ipad */
+
+@media screen and (min-width: 834px) {
+    main {
+        width: 834px;
+    }
+}
+
+/* desktop*/
+@media screen and (min-width: 1440px) {
+    main {
+        width: 1440px;
+    }
 }
 
 /* 
@@ -52,4 +66,4 @@ font-family: 'Coustard', serif;
 font-family: 'Gruppo', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Voltaire', sans-serif;
-*/ 
+*/
