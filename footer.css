@@ -142,5 +142,13 @@ footer h3 {
 
 }
 
+@media screen and (min-width: 1440px) {
+    footer {
+        width: 1440px;
+        height: 625px;
+        margin-top: -255px;
+      }
+}
+
 
 

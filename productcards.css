@@ -211,6 +211,7 @@
     .productCardOne {
         margin-top: 92px;
         margin-left: 486px;
+        margin-bottom: 120px;
     }
 
     .productCardOne .heading {
@@ -262,4 +263,42 @@
         width: 426px;
     }
 
+    /* product card 2 */
+    .productCardTwo {
+        margin-top: 120px;
+        width: 725px;
+        margin-left: 357px;
+        margin-right: 358px;
+    }
+
+    .productCardTwo .heading {
+        width: 474px;
+    }
+
+    .textCardTwo {
+        width: 474px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .btnGroup {
+        width: 468px;
+        margin-left: -3px;
+    }
+
+    .imgSeaweed {
+        width: 210px;
+        height: 394px;
+        margin-top: -260px;
+        margin-right: 0px;
+    }
+
+    .imgSeaweedSmall {
+        width: 78px;
+        height: 155px;
+        transform: matrix(0.78, 0.57, -0.66, 0.8, 0, 0);
+        margin-top: -130px;
+        margin-left: 580px;
+    }
 }
