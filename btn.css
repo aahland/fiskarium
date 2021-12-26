@@ -68,4 +68,12 @@
         height: 60px;
         margin:0px;
     }
+
+    .smallbtn {
+        width: 222px;
+    }
+
+    .CardTwoPrimary{
+        margin-bottom: 30px;
+    }
 }
