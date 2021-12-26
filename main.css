@@ -4,8 +4,8 @@
     margin-top: 147px;
 }
 
-.h1desktop{
- display: none;
+.h1desktop {
+    display: none;
 }
 
 h1 {
@@ -58,7 +58,7 @@ h1 {
     }
 }
 
-    /* Ipad */
+/* Ipad */
 @media screen and (min-width: 834px) {
 
     .firstPage {
@@ -66,9 +66,9 @@ h1 {
         margin-top: 147px;
     }
 
-    .h1desktop{
+    .h1desktop {
         display: none;
-       }
+    }
 
     h1 {
         width: 550px;
@@ -102,7 +102,7 @@ h1 {
 }
 
 
-    /* Desktop*/
+/* Desktop*/
 @media screen and (min-width: 1440px) {
     .firstPage {
         width: 1440px;
@@ -110,13 +110,13 @@ h1 {
         display: flex;
     }
 
-    .textFirstPage{
+    .textFirstPage {
         width: 545px;
         margin-left: 198px;
         margin-right: -20px;
     }
 
-    .imgFirstPage{
+    .imgFirstPage {
         width: 518px;
         margin-right: 173px;
     }
@@ -128,14 +128,13 @@ h1 {
 
     }
 
-
-    .h1smallScreens{
+    .h1smallScreens {
         display: none;
     }
 
-    .h1desktop{
+    .h1desktop {
         display: inline-block;
-       }
+    }
 
     h1 {
         width: 545px;
@@ -146,14 +145,12 @@ h1 {
         margin-bottom: 15px;
     }
 
-
     .mainText {
         margin-left: 0px;
         margin-right: 0px;
         width: 524px;
         margin-bottom: 94px;
     }
-
 
     .bubble {
         margin-left: 170px;

@@ -19,7 +19,7 @@
 
 .productgroup {
     display: flex;
-    max-width: 286px;
+    width: 286px;
     margin: 0px auto;
     margin-left: 22px;
 }
@@ -31,8 +31,8 @@
 }
 
 .pricegroup {
-    max-width: 159px;
-    max-height: 98px;
+    width: 159px;
+    height: 98px;
     padding-right: 7px;
 }
 
@@ -44,13 +44,13 @@
 }
 
 .imgYellowFish {
-    max-width: 127px;
-    max-height: 97px;
+    width: 127px;
+    height: 97px;
     float: right;
 }
 
 .textCardOne {
-    max-width: 247px;
+    width: 247px;
     margin: 0px auto;
     margin-top: 50px;
     margin-bottom: 58px;
@@ -66,7 +66,7 @@
 }
 
 .textCardTwo {
-    max-width: 301px;
+    width: 301px;
     margin: 0px auto;
     text-align: left;
     padding-top: 50px;
@@ -82,25 +82,25 @@
 }
 
 .seaweedGroup {
-    max-width: 334px;
+    width: 334px;
 }
 
 .btnGroup {
-    max-width: 174px;
+    width: 174px;
     float: left;
     margin-left: 27px;
     margin-right: 23px;
 }
 
 .imgSeaweed {
-    max-width: 98px;
-    max-height: 203px;
+    width: 98px;
+    height: 203px;
     float: right;
 }
 
 .imgSeaweedSmall {
-    max-width: 38px;
-    max-height: 78px;
+    width: 38px;
+    height: 78px;
     transform: matrix(0.79, 0.61, -0.61, 0.79, 0, 0);
     margin-left: 267px;
     margin-top: -110px;
@@ -118,13 +118,13 @@
     }
 
     .heading {
-        max-width: 474px;
+        width: 474px;
         margin-left: 126px;
         margin-top: 54px;
     }
 
     .productgroup {
-        max-width: 725px;
+        width: 725px;
         margin-left: 126px;
     }
 
@@ -138,20 +138,20 @@
     }
 
     .imgYellowFish {
-        max-width: 213px;
-        max-height: 181px;
+        width: 213px;
+        height: 181px;
         margin-top: -70px;
     }
 
     .textCardOne {
-        max-width: 474px;
+        width: 474px;
         margin-top: 40px;
         margin-bottom: 40px;
         margin-left: 126px;
     }
 
     .btnGroupOne {
-        max-width: 725px;
+        width: 725px;
         margin-left: 114px;
         margin-right: 156px;
         float: left;
@@ -167,38 +167,99 @@
 
     .productCardTwo .heading {
         margin-left: 0px;
-        padding-left:0px;
+        padding-left: 0px;
     }
 
     .textCardTwo {
-        max-width: 472px;
+        width: 472px;
         margin-left: 0px;
-        padding-left:0px;
+        padding-left: 0px;
         padding-bottom: 59px;
     }
 
     .productCardTwo .price {
         margin-left: 0px;
-        padding-left:0px;
+        padding-left: 0px;
     }
 
     .btnGroup {
-        max-width: 222px;
+        width: 222px;
         margin-left: 10px;
     }
 
     .imgSeaweed {
-        max-width: 151px;
-        max-height: 291px;
+        width: 151px;
+        height: 291px;
         margin-top: -62px;
         margin-right: 45px;
     }
 
     .imgSeaweedSmall {
-        max-width: 56px;
-        max-height: 114px;
+        width: 56px;
+        height: 114px;
         transform: matrix(0.78, 0.57, -0.66, 0.8, 0, 0);
         margin-left: 287px;
+    }
+
+}
+
+/* desktop*/
+
+@media screen and (min-width: 1440px) {
+
+    /* productcard 1*/
+    .productCardOne {
+        margin-top: 92px;
+        margin-left: 486px;
+    }
+
+    .productCardOne .heading {
+        width: 444px;
+        margin-left: 157px;
+        margin-top: 77px;
+        margin-bottom: 0px;
+    }
+
+    .productgroup {
+        width: 444px;
+        margin-left: 157px;
+    }
+
+    .productgroup p {
+        float: left;
+        line-height: 56px;
+        margin-right: 10px;
+    }
+
+    .productgroup .price {
+        float: right;
+        margin-bottom: 15px;
+        margin-top: 12px;
+        line-height: 56px;
+    }
+
+    .pricegroup {
+        width: 444px;
+        padding-right: 0px;
+        margin-top: 0px;
+        display: inline-flex;
+    }
+
+    .imgYellowFish {
+        display: none;
+    }
+
+    .textCardOne {
+        width: 444px;
+        margin-left: 157px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .btnGroupOne {
+        margin-left: 158px;
+        margin-right: 141px;
+        width: 426px;
     }
 
 }

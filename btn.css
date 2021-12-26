@@ -77,3 +77,11 @@
         margin-bottom: 30px;
     }
 }
+
+
+@media screen and (min-width: 1440px) {
+    .primary {
+        margin-right: 26px;
+    
+    }
+}
