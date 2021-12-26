@@ -4,6 +4,10 @@
     margin-top: 147px;
 }
 
+.h1desktop{
+ display: none;
+}
+
 h1 {
     width: 313px;
     float: left;
@@ -54,13 +58,17 @@ h1 {
     }
 }
 
-
+    /* Ipad */
 @media screen and (min-width: 834px) {
 
     .firstPage {
         width: 834px;
         margin-top: 147px;
     }
+
+    .h1desktop{
+        display: none;
+       }
 
     h1 {
         width: 550px;
@@ -90,5 +98,65 @@ h1 {
     .bubble {
         margin-left: 180px;
         margin-bottom: -60px;
+    }
+}
+
+
+    /* Desktop*/
+@media screen and (min-width: 1440px) {
+    .firstPage {
+        width: 1440px;
+        margin-top: 147px;
+        display: flex;
+    }
+
+    .textFirstPage{
+        width: 545px;
+        margin-left: 198px;
+        margin-right: -20px;
+    }
+
+    .imgFirstPage{
+        width: 518px;
+        margin-right: 173px;
+    }
+
+    .genericFish {
+        width: 518px;
+        height: 337px;
+        transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
+
+    }
+
+
+    .h1smallScreens{
+        display: none;
+    }
+
+    .h1desktop{
+        display: inline-block;
+       }
+
+    h1 {
+        width: 545px;
+        font-size: 64px;
+        line-height: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+
+    .mainText {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 524px;
+        margin-bottom: 94px;
+    }
+
+
+    .bubble {
+        margin-left: 170px;
+        margin-bottom: -120px;
     }
 }
