@@ -20,7 +20,7 @@ article {
 
 /* mobile first */
 main {
-    max-width: 313px;
+    max-width: 375px;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-    line-height: 90px;
+    line-height: 50px;
 }
 
 h2 {
@@ -55,7 +55,6 @@ p {
     .root {
         background-image: none;
         width: 834px;
-        position: absolute;
     }
 }
 
@@ -535,6 +534,7 @@ header p {
     width: 375px;
     text-align: left;
     margin-top: 147px;
+    line-height: 90px;
 }
 
 .h1desktop {
@@ -545,6 +545,11 @@ h1 {
     width: 313px;
     float: left;
     margin-left: 29px;
+    margin-bottom:15px;
+}
+
+.textDesktop{
+    display:none;
 }
 
 .mainText {
@@ -552,6 +557,7 @@ h1 {
     width: 315px;
     margin-bottom: 34px;
 }
+
 
 .genericFish {
     width: 274px;
@@ -618,6 +624,10 @@ h1 {
         margin-bottom: 94px;
     }
 
+    .textDesktop{
+        display:none;
+    }
+
     .genericFish {
         width: 484px;
         height: 270px;
@@ -655,6 +665,7 @@ h1 {
         width: 518px;
         height: 337px;
         transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
+        margin-top: -25px
 
     }
 
@@ -672,13 +683,20 @@ h1 {
         line-height: 90px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 15px;
+        margin-bottom: -25px;
     }
 
+    .textDesktop{
+        display:inline-block;
+    }
+
+    .textSmallerDev{
+        display:none;
+    }
     .mainText {
         margin-left: 0px;
         margin-right: 0px;
-        width: 524px;
+        width: 450px;
         margin-bottom: 94px;
     }
 
@@ -838,7 +856,7 @@ nav ul li {
     .heading {
         width: 474px;
         margin-left: 126px;
-        margin-top: 54px;
+        margin-top: 60px;
     }
 
     .productgroup {
@@ -867,7 +885,7 @@ nav ul li {
 
     .textCardOne {
         width: 474px;
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 40px;
         margin-left: 126px;
     }
