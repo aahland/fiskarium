@@ -1,10 +1,11 @@
+
+
 body {
     background-image: url("img/background-mobile.jpg");
     background-repeat: no-repeat;
-    background-position:left top;
+    background-position:top;
     background-color: #05303F;
     width: 375px;
-
 }
 
 article {
@@ -13,7 +14,7 @@ article {
 
 /* mobile first */
 main {
-    width: 375px;
+    max-width: 313px;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-    line-height: 50px;
+    line-height: 90px;
 }
 
 h2 {
@@ -32,11 +33,11 @@ h2 {
     line-height: 35px;
 }
 
-.price {
+.price{
     color: #FDBF57;
 }
 
-p {
+p{
     font-family: roboto;
     font-weight: 400;
     font-size: 24px;
@@ -44,20 +45,10 @@ p {
     line-height: 35px;
 }
 
-/* ipad */
 
-@media screen and (min-width: 834px) {
-    main {
-        width: 834px;
-    }
-}
 
-/* desktop*/
-@media screen and (min-width: 1440px) {
-    main {
-        width: 1440px;
-    }
-}
+
+
 
 /* 
 styling fonts
@@ -66,4 +57,3 @@ font-family: 'Coustard', serif;
 font-family: 'Gruppo', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Voltaire', sans-serif;
-*/
