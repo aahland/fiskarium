@@ -53,14 +53,14 @@ p {
 
 @media screen and (min-width: 834px) {
     .root {
-        background-image: none;
+        background-image: url("img/fiskariumbakgrundtablet.jpg");
         width: 834px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .root {
-        background-image: none;
+        background-image: url("img/fiskariumbakgrundDesktop.jpg");
         width: 1440px;
     }
 }
@@ -130,6 +130,7 @@ font-family: 'Voltaire', sans-serif;
 }
 
 @media screen and (min-width: 834px) {
+
 
     .primary {
         width: 199px;
@@ -369,9 +370,63 @@ footer h3 {
 
 @media screen and (min-width: 1440px) {
     footer {
-        width: 100%;
-        height: 625px;
+        width: 1580px;
+        height: 316px;
         margin-top: -255px;
+        margin-left:0;
+        right:72px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 775px;
+        margin-top: 0px;
+        margin-left: 145px;
+        left: 100px;
+        bottom: 100px;
+        
+               
+    }
+
+    .whiteLogotype {
+        margin-top: 70px;
+        height: 80px;
+        width: 106px;
+        left:0px;
+        right: 250px;
+        margin-right: 100px;
+    }
+
+    footer h3 {
+        top: 170px;
+        left: 0px;
+        right: 95px;
+        margin-left: 137px;
+    }
+
+    .socialmedia {
+        top: 60px;
+        left:1020px;
+        margin-left: 187px;
+        margin-right: 139px ;
+    }
+
+    .address {
+        width: 350px;
+        margin-top: 15px;
+        margin-bottom: 90px;
+        text-align: left;
+       
+    }
+
+    .contact {
+        left:250px;
+        margin-right: 190px;
+        margin-left: 20px;
     }
 }
 
