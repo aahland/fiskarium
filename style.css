@@ -1,11 +1,17 @@
-
-
 body {
+    width:100vw;
+    background-color: #05303F;
+}
+
+.root {
     background-image: url("img/background-mobile.jpg");
     background-repeat: no-repeat;
-    background-position:top;
+    background-position: top;
     background-color: #05303F;
-    width: 375px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%) 
 }
 
 article {
@@ -14,7 +20,7 @@ article {
 
 /* mobile first */
 main {
-    max-width: 313px;
+    max-width: 375px;
 }
 
 h1 {
@@ -22,7 +28,7 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     color: #FFFFFF;
-    line-height: 90px;
+    line-height: 50px;
 }
 
 h2 {
@@ -33,16 +39,30 @@ h2 {
     line-height: 35px;
 }
 
-.price{
+.price {
     color: #FDBF57;
 }
 
-p{
+p {
     font-family: roboto;
     font-weight: 400;
     font-size: 24px;
     color: #FFFFFF;
     line-height: 35px;
+}
+
+@media screen and (min-width: 834px) {
+    .root {
+        background-image: none;
+        width: 834px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .root {
+        background-image: none;
+        width: 1440px;
+    }
 }
 
 /* 
@@ -56,7 +76,7 @@ font-family: 'Voltaire', sans-serif;
 
 
 
-/* BTN */ 
+/* BTN */
 .primary {
     width: 268px;
     height: 60px;
@@ -164,6 +184,7 @@ font-family: 'Voltaire', sans-serif;
     font-family: 'Roboto';
     font-style: normal;
 }
+
 .cookie-banner p {
     font-weight: normal;
     font-size: 15px;
@@ -171,7 +192,9 @@ font-family: 'Voltaire', sans-serif;
     text-align: left;
     padding: 0 10px;
 }
-.cookie-setting-bttn, .cookie-accept-bttn {
+
+.cookie-setting-bttn,
+.cookie-accept-bttn {
     width: 215px;
     height: 43px;
     left: 76px;
@@ -179,7 +202,8 @@ font-family: 'Voltaire', sans-serif;
     font-size: 20px;
     line-height: 23px;
     border-radius: 1px 15px;
-} 
+}
+
 .cookie-setting-bttn {
     background: #05303F;
     border: 5px solid #F35636;
@@ -187,6 +211,7 @@ font-family: 'Voltaire', sans-serif;
     color: #F35636;
     margin-bottom: 17px;
 }
+
 .cookie-accept-bttn {
     background: #F35636;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -197,37 +222,37 @@ font-family: 'Voltaire', sans-serif;
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: #000000;
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 375px;
     height: 870px;
-    margin-left:0;
+    margin-left: 0;
     margin-top: -130px;
     position: relative;
     right: 5px;
-   
+
 }
 
 .whiteLogotype {
     height: 72.5px;
     width: 108px;
-    margin-top:73px;
+    margin-top: 73px;
     position: relative;
-    left:15px;
+    left: 15px;
 }
 
 footer h3 {
     font-family: roboto;
     font-size: 24px;
-    margin-left:0px;
-    margin-top:0px;
+    margin-left: 0px;
+    margin-top: 0px;
     font-weight: bold;
-    color:white;
+    color: white;
     position: absolute;
-    left:125px;
+    left: 125px;
 }
 
 .footertext {
@@ -241,20 +266,20 @@ footer h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align:center;
+    text-align: center;
     align-items: center;
     width: 150px;
     height: 221px;
     font-size: 24px;
     line-height: 28px;
-    
+
 }
 
 .address {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align:center;
+    text-align: center;
     align-items: center;
     width: 150px;
     height: 186px;
@@ -267,14 +292,14 @@ footer h3 {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    top:600px;
-    
+    top: 600px;
+
 }
 
 .socialmedia span {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .socialmedia p {
@@ -285,29 +310,30 @@ footer h3 {
 #instagramlogo {
     height: 77px;
     width: 77px;
-    margin-right:15px;
+    margin-right: 15px;
 }
+
 #facebooklogo {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(100%) contrast(104%);
     height: 77px;
     width: 77px;
-    margin-left:15px;
+    margin-left: 15px;
 }
 
 @media screen and (min-width: 834px) {
 
     footer {
-      width: 834px;
-      height: 625px;
-      margin-top: -140px;
+        width: 834px;
+        height: 625px;
+        margin-top: -140px;
     }
-    
+
     footer section {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width:685px;
-        margin-top: 50px;  
+        width: 685px;
+        margin-top: 50px;
     }
 
     .contact {
@@ -317,20 +343,20 @@ footer h3 {
     }
 
     .address {
-        margin-top:18px;
+        margin-top: 18px;
         text-align: left;
     }
 
     .socialmedia {
-        top:300px;
+        top: 300px;
     }
 
-   .socialmedia p{
+    .socialmedia p {
         text-align: left;
     }
 
-    .whiteLogotype{
-        margin-top: 70px; 
+    .whiteLogotype {
+        margin-top: 70px;
         left: 0px;
     }
 
@@ -343,10 +369,10 @@ footer h3 {
 
 @media screen and (min-width: 1440px) {
     footer {
-        width: 100vw;
+        width: 100%;
         height: 625px;
         margin-top: -255px;
-      }
+    }
 }
 
 
@@ -357,16 +383,16 @@ footer h3 {
 
 header {
     width: 375px;
-    margin:0px;
-    
+    margin: 0px;
+
 }
 
 .blueLogotype {
     height: 40px;
     width: 54px;
     margin-bottom: 2px;
-    margin-left:10px;
-    margin-right:27px;
+    margin-left: 10px;
+    margin-right: 27px;
 
 }
 
@@ -375,14 +401,15 @@ h3 {
     position: abolute;
     font-size: 12px;
     margin-left: 7px;
-    margin-top:0px;
+    margin-top: 0px;
     font-weight: bold;
-    
+
 }
+
 .headerLogo {
-    margin-top:13px;
+    margin-top: 13px;
     max-width: 375px;
-    
+
 }
 
 
@@ -393,21 +420,21 @@ header input {
     height: 21.89px;
     left: 100px;
     top: 25px;
-    
+
 }
 
 header button {
     position: absolute;
     left: 233px;
     top: 27px;
-    border:none;
+    border: none;
     border-radius: 100px;
     width: 58.5px;
     height: 24px;
     background: #F5592C;
     font-family: roboto;
     color: white;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 12px;
 
 }
@@ -431,67 +458,72 @@ header p {
 
 .shoppingcart {
     position: absolute;
-    right:18px;
+    right: 18px;
     top: 27px;
     height: 27px;
-    width:32px;
-    margin-left:27px;
+    width: 32px;
+    margin-left: 27px;
 
 
 }
+
 @media screen and (min-width: 834px) {
 
     .blueLogotype {
-        height:70px;
-        width:108px;
-        margin-right:52px;
-        margin-left:0px;
-        margin-bottom:3px;
+        height: 70px;
+        width: 108px;
+        margin-right: 52px;
+        margin-left: 0px;
+        margin-bottom: 3px;
         top: 26px;
-        left:57px;
-        position:absolute;
+        left: 57px;
+        position: absolute;
     }
+
     h3 {
-        font-size:24px;
-        position:absolute;
-        left:53px;
-        margin:0px;
+        font-size: 24px;
+        position: absolute;
+        left: 53px;
+        margin: 0px;
         top: 95px;
     }
 
     .shoppingcart {
-        right:80px;
-        height:44px;
-        width:47px;
-        margin-left:29px;
-        top:60px;
+        right: 80px;
+        height: 44px;
+        width: 47px;
+        margin-left: 29px;
+        top: 60px;
     }
+
     header input {
-        width:389px;
-        height:44px;
-        left:239px;
-        top:60px;
+        width: 389px;
+        height: 44px;
+        left: 239px;
+        top: 60px;
     }
+
     header button {
-        width:120.5px;
+        width: 120.5px;
         height: 46px;
         left: 513px;
-        top:62px;
+        top: 62px;
         font-size: 24px;
-        
+
 
     }
+
     header p {
         font-size: 18px;
         width: 92px;
-        left:210px;
-        top:25px;
+        left: 210px;
+        top: 25px;
 
     }
-    
 
 
-  
+
+
 }
 
 
@@ -502,6 +534,7 @@ header p {
     width: 375px;
     text-align: left;
     margin-top: 147px;
+    line-height: 90px;
 }
 
 .h1desktop {
@@ -512,6 +545,11 @@ h1 {
     width: 313px;
     float: left;
     margin-left: 29px;
+    margin-bottom:15px;
+}
+
+.textDesktop{
+    display:none;
 }
 
 .mainText {
@@ -519,6 +557,7 @@ h1 {
     width: 315px;
     margin-bottom: 34px;
 }
+
 
 .genericFish {
     width: 274px;
@@ -585,6 +624,10 @@ h1 {
         margin-bottom: 94px;
     }
 
+    .textDesktop{
+        display:none;
+    }
+
     .genericFish {
         width: 484px;
         height: 270px;
@@ -622,6 +665,7 @@ h1 {
         width: 518px;
         height: 337px;
         transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
+        margin-top: -25px
 
     }
 
@@ -639,13 +683,20 @@ h1 {
         line-height: 90px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 15px;
+        margin-bottom: -25px;
     }
 
+    .textDesktop{
+        display:inline-block;
+    }
+
+    .textSmallerDev{
+        display:none;
+    }
     .mainText {
         margin-left: 0px;
         margin-right: 0px;
-        width: 524px;
+        width: 450px;
         margin-bottom: 94px;
     }
 
@@ -664,6 +715,7 @@ nav ul {
     grid-gap: 14px;
     padding: 0;
 }
+
 nav ul li {
     background-color: #07415A;
     color: #fff;
@@ -724,8 +776,8 @@ nav ul li {
     line-height: 0px;
 }
 
-.imgYellowFishBig{
-    display:none;
+.imgYellowFishBig {
+    display: none;
 }
 
 .imgYellowFish {
@@ -804,7 +856,7 @@ nav ul li {
     .heading {
         width: 474px;
         margin-left: 126px;
-        margin-top: 54px;
+        margin-top: 60px;
     }
 
     .productgroup {
@@ -821,8 +873,8 @@ nav ul li {
         margin-top: -15px;
     }
 
-    .imgYellowFishBig{
-        display:none;
+    .imgYellowFishBig {
+        display: none;
     }
 
     .imgYellowFish {
@@ -833,7 +885,7 @@ nav ul li {
 
     .textCardOne {
         width: 474px;
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 40px;
         margin-left: 126px;
     }
@@ -934,8 +986,8 @@ nav ul li {
         display: inline-flex;
     }
 
-    .imgYellowFishBig{
-        display:inline-flex;
+    .imgYellowFishBig {
+        display: inline-flex;
         position: absolute;
         width: 388px;
         height: 297px;
@@ -944,7 +996,7 @@ nav ul li {
     }
 
     .imgYellowFish {
-      display: none;
+        display: none;
     }
 
     .textCardOne {
