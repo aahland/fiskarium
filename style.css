@@ -428,6 +428,17 @@ footer h3 {
         margin-right: 190px;
         margin-left: 20px;
     }
+
+    header {
+        width: 1440px;
+    }
+
+    header input {
+        width: 174px;
+        left:800px;
+    }
+
+
 }
 
 
