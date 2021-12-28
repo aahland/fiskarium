@@ -39,413 +39,7 @@ h2 {
     line-height: 35px;
 }
 
-.price {
-    color: #FDBF57;
-}
-
-p {
-    font-family: roboto;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFFFFF;
-    line-height: 35px;
-}
-
-@media screen and (min-width: 834px) {
-    .root {
-        background-image: url("img/fiskariumbakgrundtablet.jpg");
-        width: 834px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .root {
-        background-image: url("img/fiskariumbakgrundDesktop.jpg");
-        width: 1440px;
-    }
-}
-
-/* 
-styling fonts
-font-family: 'Abel', sans-serif;
-font-family: 'Coustard', serif;
-font-family: 'Gruppo', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Voltaire', sans-serif; 
-*/
-
-
-
-/* BTN */
-.primary {
-    width: 268px;
-    height: 60px;
-    background-color: #F35636;
-    border: #F35636 1px solid;
-    border-radius: 7px;
-    font-family: roboto;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 28.13px;
-    margin: 10px;
-}
-
-.primary:hover {
-    border: #FFFFFF 5px solid;
-}
-
-.primary:active {
-    background: #F35636;
-    border: #F4C23F 5px solid;
-}
-
-.secondary {
-    color: #F35636;
-    width: 268px;
-    height: 60px;
-    background: none;
-    border: #F35636 5px solid;
-    border-radius: 7px;
-    font-family: roboto;
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 28, 13px;
-    margin: 10px;
-}
-
-.secondary:hover {
-    background: #FFFFFF;
-    border: #F5592C 5px solid;
-}
-
-.secondary:active {
-    background: none;
-    border: #FFFFFF 5px solid;
-}
-
-.smallbtn {
-    width: 174px;
-}
-
-@media screen and (min-width: 834px) {
-
-
-    .primary {
-        width: 199px;
-        height: 60px;
-        margin: 0px;
-        margin-right: 55px;
-    }
-
-    .secondary {
-        width: 195px;
-        height: 60px;
-        margin: 0px;
-    }
-
-    .smallbtn {
-        width: 222px;
-    }
-
-    .CardTwoPrimary {
-        margin-bottom: 30px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .primary {
-        margin-right: 26px;
-    }
-
-    .CardTwoPrimary {
-        width: 221px;
-    }
-
-    .CardTwoPrimary {
-        width: 219px;
-    }
-
-    .CardTwoSecondary {
-        width: 211px;
-    }
-}
-
-
-
-/* COOKIE */
-
-.cookie-banner {
-    background: #05303F;
-    border: 5px solid #F5592C;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 100vw;
-    font-family: 'Roboto';
-    font-style: normal;
-}
-
-.cookie-banner p {
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: left;
-    padding: 0 10px;
-}
-
-.cookie-setting-bttn,
-.cookie-accept-bttn {
-    width: 215px;
-    height: 43px;
-    left: 76px;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    border-radius: 1px 15px;
-}
-
-.cookie-setting-bttn {
-    background: #05303F;
-    border: 5px solid #F35636;
-    box-sizing: border-box;
-    color: #F35636;
-    margin-bottom: 17px;
-}
-
-.cookie-accept-bttn {
-    background: #F35636;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 30px;
-}
-
-
-
-/* FOOTER */
-
-footer {
-    background-color: #000000;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 375px;
-    height: 870px;
-    margin-left: 0;
-    margin-top: -130px;
-    position: relative;
-    right: 5px;
-
-}
-
-.whiteLogotype {
-    height: 72.5px;
-    width: 108px;
-    margin-top: 73px;
-    position: relative;
-    left: 15px;
-}
-
-footer h3 {
-    font-family: roboto;
-    font-size: 24px;
-    margin-left: 0px;
-    margin-top: 0px;
-    font-weight: bold;
-    color: white;
-    position: absolute;
-    left: 125px;
-}
-
-.footertext {
-    position: relative;
-    top: 40px;
-
-}
-
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 150px;
-    height: 221px;
-    font-size: 24px;
-    line-height: 28px;
-
-}
-
-.address {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 150px;
-    height: 186px;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.socialmedia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    top: 600px;
-
-}
-
-.socialmedia span {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.socialmedia p {
-    text-align: center;
-
-}
-
-#instagramlogo {
-    height: 77px;
-    width: 77px;
-    margin-right: 15px;
-}
-
-#facebooklogo {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(100%) contrast(104%);
-    height: 77px;
-    width: 77px;
-    margin-left: 15px;
-}
-
-@media screen and (min-width: 834px) {
-
-    footer {
-        width: 834px;
-        height: 625px;
-        margin-top: -140px;
-    }
-
-    footer section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 685px;
-        margin-top: 50px;
-    }
-
-    .contact {
-        text-align: left;
-        width: 215px;
-        margin-right: 75px;
-    }
-
-    .address {
-        margin-top: 18px;
-        text-align: left;
-    }
-
-    .socialmedia {
-        top: 300px;
-    }
-
-    .socialmedia p {
-        text-align: left;
-    }
-
-    .whiteLogotype {
-        margin-top: 70px;
-        left: 0px;
-    }
-
-    footer h3 {
-        top: 200px;
-        left: 70px;
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-    footer {
-        width: 1580px;
-        height: 316px;
-        margin-top: -255px;
-        margin-left:0;
-        right:72px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    footer section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 775px;
-        margin-top: 0px;
-        margin-left: 145px;
-        left: 100px;
-        bottom: 100px;
-        
-               
-    }
-
-    .whiteLogotype {
-        margin-top: 70px;
-        height: 80px;
-        width: 106px;
-        left:0px;
-        right: 250px;
-        margin-right: 100px;
-    }
-
-    footer h3 {
-        top: 170px;
-        left: 0px;
-        right: 95px;
-        margin-left: 137px;
-    }
-
-    .socialmedia {
-        top: 60px;
-        left:1020px;
-        margin-left: 187px;
-        margin-right: 139px ;
-    }
-
-    .address {
-        width: 350px;
-        margin-top: 15px;
-        margin-bottom: 90px;
-        text-align: left;
-       
-    }
-
-    .contact {
-        left:250px;
-        margin-right: 190px;
-        margin-left: 20px;
-    }
-
-    header {
-        width: 1440px;
-    }
-
-    header input {
-        width: 174px;
-        left:800px;
-    }
-
-
-}
-
-
-
 /* HEADER */
-
-
 
 header {
     width: 375px;
@@ -459,6 +53,8 @@ header {
     margin-bottom: 2px;
     margin-left: 10px;
     margin-right: 27px;
+    position: absolute;
+    top:12px;
 
 }
 
@@ -469,15 +65,16 @@ h3 {
     margin-left: 7px;
     margin-top: 0px;
     font-weight: bold;
+    position: relative;
+    top: 50px;
 
 }
 
 .headerLogo {
-    margin-top: 13px;
+    margin-top: 15px;
     max-width: 375px;
 
 }
-
 
 header input {
     position: absolute;
@@ -533,66 +130,102 @@ header p {
 
 }
 
-@media screen and (min-width: 834px) {
-
-    .blueLogotype {
-        height: 70px;
-        width: 108px;
-        margin-right: 52px;
-        margin-left: 0px;
-        margin-bottom: 3px;
-        top: 26px;
-        left: 57px;
-        position: absolute;
-    }
-
-    h3 {
-        font-size: 24px;
-        position: absolute;
-        left: 53px;
-        margin: 0px;
-        top: 95px;
-    }
-
-    .shoppingcart {
-        right: 80px;
-        height: 44px;
-        width: 47px;
-        margin-left: 29px;
-        top: 60px;
-    }
-
-    header input {
-        width: 389px;
-        height: 44px;
-        left: 239px;
-        top: 60px;
-    }
-
-    header button {
-        width: 120.5px;
-        height: 46px;
-        left: 513px;
-        top: 62px;
-        font-size: 24px;
-
-
-    }
-
-    header p {
-        font-size: 18px;
-        width: 92px;
-        left: 210px;
-        top: 25px;
-
-    }
-
-
-
-
+/* BTN */
+.primary {
+    width: 268px;
+    height: 60px;
+    background-color: #F35636;
+    border: #F35636 1px solid;
+    border-radius: 7px;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 28.13px;
+    margin: 10px;
 }
 
+.primary:hover {
+    border: #FFFFFF 5px solid;
+}
 
+.primary:active {
+    background: #F35636;
+    border: #F4C23F 5px solid;
+}
+
+.secondary {
+    color: #F35636;
+    width: 268px;
+    height: 60px;
+    background: none;
+    border: #F35636 5px solid;
+    border-radius: 7px;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 28, 13px;
+    margin: 10px;
+}
+
+.secondary:hover {
+    background: #FFFFFF;
+    border: #F5592C 5px solid;
+}
+
+.secondary:active {
+    background: none;
+    border: #FFFFFF 5px solid;
+}
+
+.smallbtn {
+    width: 174px;
+}
+
+/* COOKIE */
+
+.cookie-banner {
+    background: #05303F;
+    border: 5px solid #F5592C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100vw;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.cookie-banner p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.cookie-accept-bttn {
+    width: 215px;
+    height: 43px;
+    left: 76px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 1px 15px;
+}
+
+.cookie-setting-bttn {
+    background: #05303F;
+    border: 5px solid #F35636;
+    box-sizing: border-box;
+    color: #F35636;
+    margin-bottom: 17px;
+}
+
+.cookie-accept-bttn {
+    background: #F35636;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
 
 /* MAIN */
 
@@ -662,117 +295,7 @@ h1 {
     }
 }
 
-/* Ipad */
-@media screen and (min-width: 834px) {
-
-    .firstPage {
-        width: 834px;
-        margin-top: 147px;
-    }
-
-    .h1desktop {
-        display: none;
-    }
-
-    h1 {
-        width: 550px;
-        font-size: 64px;
-        line-height: 90px;
-        margin-left: 163px;
-        margin-right: 124px;
-        margin-bottom: 15px;
-    }
-
-    .mainText {
-        margin-left: 165px;
-        margin-right: 145px;
-        width: 524px;
-        margin-bottom: 94px;
-    }
-
-    .textDesktop{
-        display:none;
-    }
-
-    .genericFish {
-        width: 484px;
-        height: 270px;
-        transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
-        margin-left: 177px;
-        margin-right: 139px;
-    }
-
-    .bubble {
-        margin-left: 180px;
-        margin-bottom: -60px;
-    }
-}
-
-/* Desktop*/
-@media screen and (min-width: 1440px) {
-    .firstPage {
-        width: 1440px;
-        margin-top: 147px;
-        display: flex;
-    }
-
-    .textFirstPage {
-        width: 545px;
-        margin-left: 198px;
-        margin-right: -20px;
-    }
-
-    .imgFirstPage {
-        width: 518px;
-        margin-right: 173px;
-    }
-
-    .genericFish {
-        width: 518px;
-        height: 337px;
-        transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
-        margin-top: -25px
-
-    }
-
-    .h1smallScreens {
-        display: none;
-    }
-
-    .h1desktop {
-        display: inline-block;
-    }
-
-    h1 {
-        width: 545px;
-        font-size: 64px;
-        line-height: 90px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: -25px;
-    }
-
-    .textDesktop{
-        display:inline-block;
-    }
-
-    .textSmallerDev{
-        display:none;
-    }
-    .mainText {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 450px;
-        margin-bottom: 94px;
-    }
-
-    .bubble {
-        margin-left: 170px;
-        margin-bottom: -120px;
-    }
-}
-
-/* MENU */
+/* NAVIGATION */
 
 nav ul {
     list-style: none;
@@ -780,6 +303,9 @@ nav ul {
     grid-template-columns: 88px 94px 127px;
     grid-gap: 14px;
     padding: 0;
+    position: absolute;
+    top: 65px;
+    left: 17px;
 }
 
 nav ul li {
@@ -797,8 +323,18 @@ nav ul li {
 }
 
 /* PRODUCT CARDS */
+.price {
+    color: #FDBF57;
+}
 
-/* product card 1 */
+p {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 35px;
+}
+/* PRODUCT CARD 1 */
 .productCardOne {
     background: #07415A;
     border: #0F1010 solid 2px;
@@ -861,7 +397,7 @@ nav ul li {
     padding-right: 23px;
 }
 
-/* product card 2 */
+/* PRODUCT CARD 2 */
 .productCardTwo {
     margin-top: 101px;
     width: 334px;
@@ -909,10 +445,165 @@ nav ul li {
     margin-top: -110px;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 870px;
+    margin-left: 0;
+    margin-top: -130px;
+    position: relative;
+    right: 5px;
+
+}
+
+.whiteLogotype {
+    height: 72.5px;
+    width: 108px;
+    margin-top: 73px;
+    position: relative;
+    left: 15px;
+}
+
+footer h3 {
+    font-family: roboto;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 125px;
+}
+
+.footertext {
+    position: relative;
+    top: 40px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 221px;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 186px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 600px;
+
+}
+
+.socialmedia span {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.socialmedia p {
+    text-align: center;
+
+}
+
+#instagramlogo {
+    height: 77px;
+    width: 77px;
+    margin-right: 15px;
+}
+
+#facebooklogo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(100%) contrast(104%);
+    height: 77px;
+    width: 77px;
+    margin-left: 15px;
+}
+
 /* Ipad */
 @media screen and (min-width: 834px) {
 
-    /* productcard 1*/
+    .root {
+        background-image: url("img/fiskariumbakgrundtablet.jpg");
+        width: 834px;
+    }
+
+/* HEADER - tablet */
+    header input {
+        width: 389px;
+        height: 44px;
+        left: 239px;
+        top: 60px;
+    }
+
+    header button {
+        width: 120.5px;
+        height: 46px;
+        left: 514px;
+        top: 62px;
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 18px;
+        width: 92px;
+        left: 210px;
+        top: 25px;
+    }
+
+    .blueLogotype {
+        height: 70px;
+        width: 108px;
+        margin-right: 52px;
+        margin-left: 0px;
+        margin-bottom: 3px;
+        top: 26px;
+        left: 57px;
+        position: absolute;
+    }
+
+    h3 {
+        font-size: 24px;
+        position: absolute;
+        left: 53px;
+        margin: 0px;
+        top: 95px;
+    }
+
+    .shoppingcart {
+        right: 80px;
+        height: 44px;
+        width: 47px;
+        margin-left: 29px;
+        top: 60px;
+    }
+
+/* PRODUCT CARDS */
+/* PRODUCT CARD 1 - tablet */
     .productCardOne {
         width: 725px;
         height: 516px;
@@ -963,7 +654,7 @@ nav ul li {
         float: left;
     }
 
-    /* product card 2 */
+/* PRODUCT CARD 2 - tablet */
     .productCardTwo {
         margin-top: 136px;
         width: 472px;
@@ -1007,14 +698,239 @@ nav ul li {
         margin-left: 287px;
     }
 
+    .primary {
+        width: 199px;
+        height: 60px;
+        margin: 0px;
+        margin-right: 55px;
+    }
+
+    .secondary {
+        width: 195px;
+        height: 60px;
+        margin: 0px;
+    }
+
+    .smallbtn {
+        width: 222px;
+    }
+
+    .CardTwoPrimary {
+        margin-bottom: 30px;
+    }
+
+/* FOOTER - tablet */
+
+    footer {
+        width: 834px;
+        height: 625px;
+        margin-top: -140px;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 685px;
+        margin-top: 50px;
+    }
+
+    .contact {
+        text-align: left;
+        width: 215px;
+        margin-right: 75px;
+    }
+
+    .address {
+        margin-top: 18px;
+        text-align: left;
+    }
+
+    .socialmedia {
+        top: 300px;
+    }
+
+    .socialmedia p {
+        text-align: left;
+    }
+
+    .whiteLogotype {
+        margin-top: 70px;
+        left: 0px;
+    }
+
+    footer h3 {
+        top: 200px;
+        left: 70px;
+    }
+
+    .firstPage {
+        width: 834px;
+        margin-top: 147px;
+    }
+
+    .h1desktop {
+        display: none;
+    }
+
+    h1 {
+        width: 550px;
+        font-size: 64px;
+        line-height: 90px;
+        margin-left: 163px;
+        margin-right: 124px;
+        margin-bottom: 15px;
+    }
+
+    .mainText {
+        margin-left: 165px;
+        margin-right: 145px;
+        width: 524px;
+        margin-bottom: 94px;
+    }
+
+    .textDesktop{
+        display:none;
+    }
+
+    .genericFish {
+        width: 484px;
+        height: 270px;
+        transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
+        margin-left: 177px;
+        margin-right: 139px;
+    }
+
+    .bubble {
+        margin-left: 180px;
+        margin-bottom: -60px;
+    }
+
 }
 
-/* desktop*/
-
 @media screen and (min-width: 1440px) {
+    .root {
+        background-image: url("img/fiskariumbakgrundDesktop.jpg");
+        width: 1440px;
+    }
 
-    /* productcard 1*/
-    .productCardOne {
+     /* HEADER DESKTOP - desktop */
+
+    header {
+        width: 1440px;
+    }
+
+    .blueLogotype {
+        margin-left: 55px;
+        left:0px;
+        top:35px;
+        
+    }
+
+    h3 {
+        top:105px;
+    }
+
+    header p {
+        left:875px;
+
+    }
+
+    header input {
+        width: 374px;
+        left:900px;
+        margin-right: 241px;
+    }
+
+    header button {
+        left: 1160px;
+    }
+
+    .shoppingcart {
+        margin-left:63px;
+        left:1280px;
+    }
+
+    .primary {
+        margin-right: 26px;
+    }
+
+    .CardTwoPrimary {
+        width: 221px;
+    }
+
+    .CardTwoPrimary {
+        width: 219px;
+    }
+
+    .CardTwoSecondary {
+        width: 211px;
+    }
+
+    .firstPage {
+        width: 1440px;
+        margin-top: 147px;
+        display: flex;
+    }
+
+    .textFirstPage {
+        width: 545px;
+        margin-left: 198px;
+        margin-right: -20px;
+    }
+
+    .imgFirstPage {
+        width: 518px;
+        margin-right: 173px;
+    }
+
+    .genericFish {
+        width: 518px;
+        height: 337px;
+        transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
+        margin-top: -25px
+
+    }
+
+    .h1smallScreens {
+        display: none;
+    }
+
+    .h1desktop {
+        display: inline-block;
+    }
+
+    h1 {
+        width: 545px;
+        font-size: 64px;
+        line-height: 90px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: -25px;
+    }
+
+    .textDesktop{
+        display:inline-block;
+    }
+
+    .textSmallerDev{
+        display:none;
+    }
+    .mainText {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 450px;
+        margin-bottom: 94px;
+    }
+
+    .bubble {
+        margin-left: 170px;
+        margin-bottom: -120px;
+    }
+
+/* PRODUCT CARDS - desktop */
+/* PRODUCT CARD 1 - desktop */
+     .productCardOne {
         margin-top: 92px;
         margin-left: 486px;
         margin-bottom: 120px;
@@ -1078,7 +994,7 @@ nav ul li {
         width: 426px;
     }
 
-    /* product card 2 */
+/* PRODUCT CARD 2 - desktop */
     .productCardTwo {
         margin-top: 120px;
         width: 725px;
@@ -1116,4 +1032,66 @@ nav ul li {
         margin-top: -130px;
         margin-left: 580px;
     }
+
+/* FOOTER - desktop */
+    footer {
+        width: 1580px;
+        height: 316px;
+        margin-top: -255px;
+        margin-left:0;
+        right:72px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 775px;
+        margin-top: 0px;
+        margin-left: 145px;
+        left: 100px;
+        bottom: 100px;
+        
+               
+    }
+
+    .whiteLogotype {
+        margin-top: 70px;
+        height: 80px;
+        width: 106px;
+        left:0px;
+        right: 250px;
+        margin-right: 100px;
+    }
+
+    footer h3 {
+        top: 170px;
+        left: 0px;
+        right: 95px;
+        margin-left: 137px;
+    }
+
+    .socialmedia {
+        top: 60px;
+        left:1020px;
+        margin-left: 187px;
+        margin-right: 139px ;
+    }
+
+    .address {
+        width: 350px;
+        margin-top: 15px;
+        margin-bottom: 90px;
+        text-align: left;
+       
+    }
+
+    .contact {
+        left:250px;
+        margin-right: 190px;
+        margin-left: 20px;
+    }
+
 }
