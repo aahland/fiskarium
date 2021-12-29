@@ -1,13 +1,13 @@
 body {
     width:100vw;
-    background-color: #05303F;
+    background-color: #052C3D;
 }
 
 .root {
-    background-image: url("img/background-mobile.jpg");
+    background-image: url("img/backgroundM1.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-color: #05303F;
+    background-color: #052C3D;
     position: absolute;
     left: 50%;
     margin-right: -50%;
@@ -548,7 +548,7 @@ footer h3 {
 @media screen and (min-width: 834px) {
 
     .root {
-        background-image: url("img/fiskariumbakgrundtablet.jpg");
+        background-image: url("img/backgroundT1.jpg");
         width: 834px;
     }
 
@@ -810,7 +810,7 @@ footer h3 {
 
 @media screen and (min-width: 1440px) {
     .root {
-        background-image: url("img/fiskariumbakgrundDesktop.jpg");
+        background-image: url("img/backgroundD1.jpg");
         width: 1440px;
     }
 
