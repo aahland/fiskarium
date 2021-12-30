@@ -6,7 +6,7 @@ $nightBlack: #000000;
 $navyBlue: #07415A;
 
 body {
-    width:100vw;
+    width: 100vw;
     background-color: $darkNavyBlue;
 }
 
@@ -18,7 +18,7 @@ body {
     position: absolute;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%) 
+    transform: translate(-50%)
 }
 
 article {
@@ -62,7 +62,7 @@ header {
     margin-right: 27px;
     margin-top: 10px;
     position: absolute;
-    top:8px;
+    top: 8px;
 
 }
 
@@ -110,6 +110,10 @@ header button {
 
 }
 
+header button:hover {
+    cursor: pointer;
+}
+
 header p {
     position: absolute;
     color: black;
@@ -137,6 +141,10 @@ header p {
 
 }
 
+.shoppingcart:hover {
+    cursor: pointer;
+}
+
 /* BTN */
 .primary {
     width: 268px;
@@ -154,6 +162,7 @@ header p {
 
 .primary:hover {
     border: $snowWhite 5px solid;
+    cursor: pointer;
 }
 
 .primary:active {
@@ -162,7 +171,7 @@ header p {
 }
 
 .secondary {
-    color:  $coral;
+    color: $coral;
     width: 268px;
     height: 60px;
     background: none;
@@ -177,8 +186,9 @@ header p {
 }
 
 .secondary:hover {
-    background:$snowWhite;
+    background: $snowWhite;
     border: $coral 5px solid;
+    cursor: pointer;
 }
 
 .secondary:active {
@@ -220,12 +230,20 @@ header p {
     border-radius: 1px 15px;
 }
 
+.cookie-accept-bttn:hover {
+    cursor: pointer;
+}
+
 .cookie-setting-bttn {
     background: $darkNavyBlue;
     border: 5px solid $coral;
     box-sizing: border-box;
     color: $coral;
     margin-bottom: 17px;
+}
+
+.cookie-setting-bttn:hover {
+    cursor: pointer;
 }
 
 .cookie-accept-bttn {
@@ -251,17 +269,17 @@ h1 {
     width: 313px;
     float: left;
     margin-left: 29px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
-.textDesktop{
-    display:none;
+.textDesktop {
+    display: none;
 }
 
 .mainText {
     margin-left: 30px;
     width: 315px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 
@@ -308,7 +326,7 @@ h1 {
 nav ul {
     list-style: none;
     display: grid;
-    grid-template-columns: 88px 94px 127px;
+    grid-template-columns: 88px 86px 127px;
     grid-gap: 14px;
     padding: 0;
     position: absolute;
@@ -319,6 +337,7 @@ nav ul {
 nav ul li {
     background-color: $navyBlue;
     color: $snowWhite;
+    border: $navyBlue 4px solid;
     text-align: center;
     font-family: 'Voltaire';
     font-style: normal;
@@ -329,6 +348,18 @@ nav ul li {
     height: 31px;
     padding: 5px 0;
 }
+
+nav ul li:hover {
+    color: $navyBlue;
+    background-color: $snowWhite;
+    cursor: pointer;
+}
+
+nav ul li:active {
+    color: $navyBlue;
+    background-color: #B2B2B2;
+}
+
 
 /* PRODUCT CARDS */
 .price {
@@ -342,6 +373,7 @@ p {
     color: $snowWhite;
     line-height: 35px;
 }
+
 /* PRODUCT CARD 1 */
 .productCardOne {
     background: $navyBlue;
@@ -492,7 +524,6 @@ footer h3 {
 .footertext {
     position: relative;
     top: 40px;
-
 }
 
 .contact {
@@ -505,7 +536,6 @@ footer h3 {
     height: 221px;
     font-size: 24px;
     line-height: 28px;
-
 }
 
 .address {
@@ -526,31 +556,36 @@ footer h3 {
     justify-content: center;
     position: absolute;
     top: 600px;
-
 }
 
 .socialmedia span {
     display: flex;
     flex-direction: row;
-
 }
 
 .socialmedia p {
     text-align: center;
-
 }
 
-#instagramlogo {
+.instagramlogo {
     height: 77px;
     width: 77px;
     margin-right: 15px;
 }
 
-#facebooklogo {
+.instagramlogo:hover {
+    cursor: pointer;
+}
+
+.facebooklogo {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(353deg) brightness(100%) contrast(104%);
     height: 77px;
     width: 77px;
     margin-left: 15px;
+}
+
+.facebooklogo:hover {
+    cursor: pointer;
 }
 
 /* Ipad */
@@ -561,7 +596,7 @@ footer h3 {
         width: 834px;
     }
 
-/* HEADER - tablet */
+    /* HEADER - tablet */
     header input {
         width: 389px;
         height: 44px;
@@ -610,7 +645,8 @@ footer h3 {
         margin-left: 29px;
         top: 71px;
     }
-/* NAVIGATION - tablet */  
+
+    /* NAVIGATION - tablet */
     nav ul {
         top: 145px;
         grid-template-columns: 172px 184px 194px;
@@ -618,8 +654,8 @@ footer h3 {
         grid-gap: 48px;
     }
 
-/* PRODUCT CARDS */
-/* PRODUCT CARD 1 - tablet */
+    /* PRODUCT CARDS */
+    /* PRODUCT CARD 1 - tablet */
     .productCardOne {
         width: 725px;
         height: 516px;
@@ -672,7 +708,7 @@ footer h3 {
         float: left;
     }
 
-/* PRODUCT CARD 2 - tablet */
+    /* PRODUCT CARD 2 - tablet */
     .productCardTwo {
         margin-top: 136px;
         width: 472px;
@@ -737,7 +773,7 @@ footer h3 {
         margin-bottom: 30px;
     }
 
-/* FOOTER - tablet */
+    /* FOOTER - tablet */
 
     footer {
         width: 834px;
@@ -807,8 +843,8 @@ footer h3 {
         margin-bottom: 94px;
     }
 
-    .textDesktop{
-        display:none;
+    .textDesktop {
+        display: none;
     }
 
     .genericFish {
@@ -832,7 +868,7 @@ footer h3 {
         width: 1440px;
     }
 
-     /* HEADER DESKTOP - desktop */
+    /* HEADER DESKTOP - desktop */
 
     header {
         width: 1440px;
@@ -840,23 +876,23 @@ footer h3 {
 
     .blueLogotype {
         margin-left: 55px;
-        left:0px;
-        top:35px;
-        
+        left: 0px;
+        top: 35px;
+
     }
 
     h3 {
-        top:115px;
+        top: 115px;
     }
 
     header p {
-        left:875px;
+        left: 875px;
 
     }
 
     header input {
         width: 374px;
-        left:900px;
+        left: 900px;
         margin-right: 241px;
     }
 
@@ -865,11 +901,11 @@ footer h3 {
     }
 
     .shoppingcart {
-        margin-left:63px;
-        left:1280px;
+        margin-left: 63px;
+        left: 1280px;
     }
 
-/* NAVIGATION - desktop */  
+    /* NAVIGATION - desktop */
     nav ul {
         top: 60px;
         grid-template-columns: 172px 184px 194px;
@@ -880,6 +916,18 @@ footer h3 {
         background-color: white;
         color: black;
         font-size: 24px;
+        border: none;
+    }
+
+    nav ul li:hover {
+        color: #8000AD;
+        text-decoration: underline;
+    }
+
+    nav ul li:active {
+        color: #8000AD;
+        text-decoration: underline;
+        background: none;
     }
 
     .primary {
@@ -923,7 +971,6 @@ footer h3 {
         height: 337px;
         transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
         margin-top: -25px
-
     }
 
     .h1smallScreens {
@@ -943,16 +990,17 @@ footer h3 {
         margin-bottom: -25px;
     }
 
-    .textDesktop{
-        display:inline-block;
+    .textDesktop {
+        display: inline-block;
     }
 
-    .textSmallerDev{
-        display:none;
+    .textSmallerDev {
+        display: none;
     }
+
     .mainText {
         margin-left: 0px;
-        margin-right:  0px;
+        margin-right: 0px;
         width: 450px;
         margin-bottom: 94px;
     }
@@ -962,9 +1010,9 @@ footer h3 {
         margin-bottom: -120px;
     }
 
-/* PRODUCT CARDS - desktop */
-/* PRODUCT CARD 1 - desktop */
-     .productCardOne {
+    /* PRODUCT CARDS - desktop */
+    /* PRODUCT CARD 1 - desktop */
+    .productCardOne {
         margin-top: 92px;
         margin-left: 486px;
         margin-right: 370px;
@@ -1029,7 +1077,7 @@ footer h3 {
         width: 426px;
     }
 
-/* PRODUCT CARD 2 - desktop */
+    /* PRODUCT CARD 2 - desktop */
     .productCardTwo {
         margin-top: 120px;
         width: 725px;
@@ -1068,13 +1116,13 @@ footer h3 {
         margin-left: 580px;
     }
 
-/* FOOTER - desktop */
+    /* FOOTER - desktop */
     footer {
         width: 1580px;
         height: 316px;
         margin-top: -255px;
-        margin-left:0;
-        right:72px;
+        margin-left: 0;
+        right: 72px;
         display: flex;
         flex-direction: row;
     }
@@ -1088,15 +1136,15 @@ footer h3 {
         margin-left: 145px;
         left: 100px;
         bottom: 100px;
-        
-               
+
+
     }
 
     .whiteLogotype {
         margin-top: 70px;
         height: 80px;
         width: 106px;
-        left:0px;
+        left: 0px;
         right: 250px;
         margin-right: 100px;
     }
@@ -1110,9 +1158,9 @@ footer h3 {
 
     .socialmedia {
         top: 60px;
-        left:1020px;
+        left: 1020px;
         margin-left: 187px;
-        margin-right: 139px ;
+        margin-right: 139px;
     }
 
     .address {
@@ -1120,11 +1168,11 @@ footer h3 {
         margin-top: 15px;
         margin-bottom: 90px;
         text-align: left;
-       
+
     }
 
     .contact {
-        left:250px;
+        left: 250px;
         margin-right: 190px;
         margin-left: 20px;
     }
