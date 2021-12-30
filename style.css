@@ -51,10 +51,11 @@ header {
     height: 40px;
     width: 54px;
     margin-bottom: 2px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 27px;
+    margin-top: 10px;
     position: absolute;
-    top:12px;
+    top:8px;
 
 }
 
@@ -62,11 +63,11 @@ h3 {
     font-family: roboto;
     position: abolute;
     font-size: 12px;
-    margin-left: 7px;
-    margin-top: 0px;
+    margin-left: 18px;
+    margin-top: 12px;
     font-weight: bold;
     position: relative;
-    top: 50px;
+    top: 48px;
 
 }
 
@@ -80,20 +81,20 @@ header input {
     position: absolute;
     border-radius: 100px;
     width: 186px;
-    height: 21.89px;
-    left: 100px;
-    top: 25px;
+    height: 21px;
+    left: 103px;
+    top: 35px;
 
 }
 
 header button {
     position: absolute;
-    left: 233px;
-    top: 27px;
+    left: 237px;
+    top: 37px;
     border: none;
     border-radius: 100px;
     width: 58.5px;
-    height: 24px;
+    height: 23px;
     background: #F5592C;
     font-family: roboto;
     color: white;
@@ -108,7 +109,7 @@ header p {
     width: 50px;
     height: 9px;
     left: 70px;
-    top: 2px;
+    top: 14px;
     margin-bottom: 0px;
     margin-left: 50px;
 
@@ -122,7 +123,7 @@ header p {
 .shoppingcart {
     position: absolute;
     right: 18px;
-    top: 27px;
+    top: 35px;
     height: 27px;
     width: 32px;
     margin-left: 27px;
@@ -305,7 +306,7 @@ nav ul {
     grid-gap: 14px;
     padding: 0;
     position: absolute;
-    top: 65px;
+    top: 85px;
     left: 17px;
 }
 
@@ -479,6 +480,7 @@ footer h3 {
     color: white;
     position: absolute;
     left: 125px;
+    top: 150px;
 }
 
 .footertext {
@@ -558,14 +560,14 @@ footer h3 {
         width: 389px;
         height: 44px;
         left: 239px;
-        top: 60px;
+        top: 72px;
     }
 
     header button {
         width: 120.5px;
         height: 46px;
         left: 514px;
-        top: 62px;
+        top: 74px;
         font-size: 24px;
     }
 
@@ -573,7 +575,7 @@ footer h3 {
         font-size: 18px;
         width: 92px;
         left: 210px;
-        top: 25px;
+        top: 35px;
     }
 
     .blueLogotype {
@@ -592,7 +594,7 @@ footer h3 {
         position: absolute;
         left: 53px;
         margin: 0px;
-        top: 95px;
+        top: 108px;
     }
 
     .shoppingcart {
@@ -600,7 +602,14 @@ footer h3 {
         height: 44px;
         width: 47px;
         margin-left: 29px;
-        top: 60px;
+        top: 71px;
+    }
+/* NAVIGATION - tablet */  
+    nav ul {
+        top: 145px;
+        grid-template-columns: 172px 184px 194px;
+        left: 90px;
+        grid-gap: 48px;
     }
 
 /* PRODUCT CARDS */
@@ -831,7 +840,7 @@ footer h3 {
     }
 
     h3 {
-        top:105px;
+        top:115px;
     }
 
     header p {
@@ -852,6 +861,19 @@ footer h3 {
     .shoppingcart {
         margin-left:63px;
         left:1280px;
+    }
+
+/* NAVIGATION - desktop */  
+    nav ul {
+        top: 60px;
+        grid-template-columns: 172px 184px 194px;
+        left: 210px;
+    }
+
+    nav ul li {
+        background-color: white;
+        color: black;
+        font-size: 24px;
     }
 
     .primary {
