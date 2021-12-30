@@ -254,7 +254,7 @@ h1 {
 .mainText {
     margin-left: 30px;
     width: 315px;
-    margin-bottom: 34px;
+    margin-bottom:0px;
 }
 
 
@@ -271,6 +271,7 @@ h1 {
     -webkit-animation: mover 25s infinite;
     animation: mover 25s infinite;
     animation-delay: 1s;
+    margin-top: 0px;
 }
 
 @-webkit-keyframes mover {
@@ -608,6 +609,8 @@ footer h3 {
         width: 725px;
         height: 516px;
         margin-top: 92px;
+        margin-left: 48px;
+        margin-right: 61px;
     }
 
     .heading {
@@ -885,6 +888,9 @@ footer h3 {
     }
 
     .genericFish {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 97px;
         width: 518px;
         height: 337px;
         transform: matrix(-0.99, -0.14, -0.14, 0.99, 0, 0);
@@ -918,13 +924,13 @@ footer h3 {
     }
     .mainText {
         margin-left: 0px;
-        margin-right: 0px;
+        margin-right:  0px;
         width: 450px;
         margin-bottom: 94px;
     }
 
     .bubble {
-        margin-left: 170px;
+        margin-left: 80px;
         margin-bottom: -120px;
     }
 
@@ -933,6 +939,7 @@ footer h3 {
      .productCardOne {
         margin-top: 92px;
         margin-left: 486px;
+        margin-right: 370px;
         margin-bottom: 120px;
     }
 
