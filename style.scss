@@ -194,6 +194,10 @@ header p {
 /* COOKIE */
 
 .cookie-banner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background: $darkNavyBlue;
     border: 5px solid $coral;
     box-sizing: border-box;
@@ -202,7 +206,6 @@ header p {
     font-family: 'Roboto';
     font-style: normal;
 }
-
 .cookie-banner p {
     font-weight: normal;
     font-size: 15px;
@@ -211,20 +214,29 @@ header p {
     padding: 0 10px;
 }
 .cookie-accept-btn, .cookie-setting-btn {
+    cursor: pointer;
     width: 215px;
     height: 43px; 
     border-radius: 1px 15px; 
     font-size: 20px;
 } 
-
 .cookie-accept-btn {
+    border: none;
     font-weight: bold;
     line-height: 23px;
     background: $coral;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 30px;
 }
-
+.cookie-accept-btn:hover {
+    border: 5px solid #FFFFFF;
+}
+.cookie-accept-btn:active {
+    border: 5px solid #F4C23F;
+}
+.cookie-setting-btn:hover {
+    background: #FFFFFF;
+}
 .cookie-setting-btn {
     border: 5px solid #F35636;
     box-sizing: border-box;
