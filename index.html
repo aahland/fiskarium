@@ -16,12 +16,9 @@
 
 <body>
     <section class="root">
-
         <header>
-
             <span class="headerLogo">
                 <img class="blueLogotype" src="img/kitchen-fish.blue.svg" alt="fisk-logotyp">
-                <h3>FISKARIUM</h3>
 
             </span>
             <span>
@@ -61,17 +58,6 @@
                     <img class="genericFish" src="img/johnny_automatic_generic_fish.svg" alt="blå fisk illustration">
                 </section>
             </article>
-            <article class="cookie-banner">
-                <p>Vi använder cookies för att förbättra din upplevelse på vår hemsida,För webbanalys och till att
-                    anpassa
-                    marknadsföring.
-                    Genom att klicka på ”Godkänn alla” godkänner du användandet av cookies.
-                    Du kan när som helst justera användningen av cookies i inställningarna i din webbläsare eller på vår
-                    sida om cookies.
-                </p>
-                <button class="cookie-setting-bttn">Ändra inställningar</button>
-                <button class="cookie-accept-bttn">Godkänn alla</button>
-            </article>
 
             <img class="imgYellowFishBig" src="img/johnny_automatic_fish_2.svg" alt="gul fisk illustration">
 
@@ -110,6 +96,8 @@
             </article>
         </main>
 
+
+
         <footer>
             <section>
                 <span>
@@ -143,7 +131,29 @@
 
         </footer>
 
+        <article id="cookie-banner" class="cookie-banner" style="display: grid;">
+            <p>Vi använder cookies för att förbättra din upplevelse på vår hemsida,För webbanalys och till att
+                anpassa
+                marknadsföring.
+                Genom att klicka på ”Godkänn alla” godkänner du användandet av cookies.
+                Du kan när som helst justera användningen av cookies i inställningarna i din webbläsare eller på vår
+                sida om cookies.
+            </p>
+            <span class="cookie-btns-container">
+                <button class="cookie-setting-btn">Ändra inställningar</button>
+                <button class="cookie-accept-btn" onclick="hideCookie()">Godkänn alla</button>
+            </span>
+        </article>
     </section>
+    <script>
+        function hideCookie() {
+            let cookie = document.getElementById('cookie-banner')
+            if (cookie.style.display === "grid") {
+                cookie.style.display = "none";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
